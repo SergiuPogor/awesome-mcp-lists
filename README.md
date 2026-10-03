@@ -177,6 +177,7 @@ MCP servers for web search, content access, and web automation.
 | 37 | **video-search-and-summarization** | NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs. | [GitHub](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization) |
 | 38 | **anysearch-mcp-server** | Unified real-time search MCP server supporting general web search, vertical domain search, parallel batch search, and full-page URL content extraction. | [GitHub](https://github.com/anysearch-ai/anysearch-mcp-server) |
 | 39 | **Statsnet** | Background check any company in the world: registration, executives, courts and finances. Remote MCP `https://statsnet.co/mcp` · Registry `io.github.usenetstate/statsnet` | [GitHub](https://github.com/usenetstate/statsnet-mcp) |
+| 40 | **QuanticData MCP** | Hosted Streamable HTTP MCP for web search, page scraping to Markdown, crawl and URL map, and ready-made site collectors; OAuth 2.1 or API key. Remote MCP `https://api.quanticdata.io/mcp` · Registry `io.github.quantumproxies/quanticdata-mcp`; includes a Dockerfile | [GitHub](https://github.com/quantumproxies/quanticdata-mcp-server) |
 
 ### Integrations & APIs
 
