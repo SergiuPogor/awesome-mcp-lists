@@ -217,6 +217,7 @@ MCP servers for accessing external services and APIs.
 | 31 | **ParlayAPI** | Sports odds and player props with your own API key and account allowances; build from the repository Dockerfile | [GitHub](https://github.com/JacobiusMakes/parlay-api-mcp) |
 | 32 | **Unfetch** | Hosted Google Ads MCP server for campaign, spend, conversion, and search-term reporting, with Google Analytics, Google Search Console, keyword research, and web research; OAuth and read-only account access. [Setup](https://unfetch.com/plugin) | [GitHub](https://github.com/unfetch-com/agent-plugin) |
 | 33 | **GrowSurf** | Build and manage GrowSurf referral and affiliate programs through AI assistants. Hosted OAuth or local stdio; includes a Dockerfile. | [GitHub](https://github.com/growsurf/growsurf-mcp) |
+| 34 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
 
 ### AI & Machine Learning
 
