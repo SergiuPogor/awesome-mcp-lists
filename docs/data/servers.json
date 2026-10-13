@@ -4,8 +4,8 @@
     "servers": 375,
     "clients": 21,
     "toolkits": 44,
-    "docker": 193,
-    "total": 633
+    "docker": 195,
+    "total": 635
   },
   "groups": {
     "servers": [
@@ -3685,6 +3685,18 @@
         "name": "mnemoverse/mcp-memory-server",
         "description": "Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped.",
         "url": "https://github.com/mnemoverse/mcp-memory-server",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "knowledge-rag",
+        "description": "Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers",
+        "url": "https://github.com/lyonzin/knowledge-rag",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "ContextStream",
+        "description": "Shared project context for AI agents across Cursor, Claude Code, Codex, Grok, and other MCP clients. Hosted MCP at `io.contextstream/mcp`. Benchmarks",
+        "url": "https://contextstream.io/benchmarks",
         "category": "Knowledge Management"
       },
       {
