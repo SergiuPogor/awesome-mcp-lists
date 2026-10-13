@@ -128,6 +128,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 59 | **wslmanager** | GUI for the Windows Subsystem for Linux — and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH. | [GitHub](https://github.com/bostrot/wslmanager) |
 | 60 | **atlassian-mcp-server** | Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens. | [GitHub](https://github.com/atlassian/atlassian-mcp-server) |
 | 61 | **SolidPing** | Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio. | [GitHub](https://github.com/fclairamb/solidping) |
+| 62 | **Croncool** | Hosted OAuth MCP for scheduled jobs, execution history, workflows, webhook health and confirmed run-now actions. | [Config](https://github.com/croncool/claude-plugin) · [Docs](https://www.cron.cool/developers/#mcp) |
 
 ### Database & Storage
 
@@ -215,6 +216,7 @@ MCP servers for web search, content access, and web automation.
 | 43 | **vexa** | Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS. | [GitHub](https://github.com/Vexa-ai/vexa) |
 | 44 | **invisible_playwright_mcp** | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use. | [GitHub](https://github.com/feder-cr/invisible_playwright_mcp) |
 | 45 | **Apple Docs 2.0 MCP** | Apple developer documentation, Human Interface Guidelines and 1,700 WWDC sessions (2014–2026) with code for coding agents; search with developer.apple.com's own results and an offline index of 336,629 pages. Local stdio via `npx -y apple-docs-2.0-mcp` · Registry `io.github.mishafyi/apple-docs-2.0-mcp` | [GitHub](https://github.com/mishafyi/Apple-Docs-2.0-MCP) |
+| 46 | **Polyblog** | Hosted OAuth MCP for multilingual blog articles, topic planning, translation and confirmed publishing changes. | [Config](https://github.com/polyblog-io/claude-plugin) · [Docs](https://www.polyblog.io/developers/#mcp) |
 
 ### Integrations & APIs
 
@@ -282,6 +284,14 @@ MCP servers for accessing external services and APIs.
 | 58 | **Patent by Ouroboros Apps** | USPTO patent search and prior art lookup: search public patent records, fetch a patent, list citations, and run a prior-art search. Not legal advice. Hosted coverage is USPTO only. Hosted Streamable HTTP MCP `https://patent-mcp.vercel.app/mcp` with OAuth; includes a Dockerfile. [Docs](https://ouroborosapps.com/docs/patent) · [Ouroboros Apps](https://ouroborosapps.com) | [GitHub](https://github.com/LAHutchins91/patent-mcp) |
 | 59 | **Invompt** | Hosted remote MCP that turns AI-host work into invoices, quotes, and estimates you review before send; works inside Claude, ChatGPT, or Cursor. Guest access or OAuth at `https://mcp.invompt.com/mcp` | [GitHub](https://github.com/Invompt/invompt-mcp) |
 | 60 | **Productify** | Hosted Streamable HTTP MCP that creates Printify products from chat, with listings written in your shop's voice. Nothing is created, published or edited until you approve a preview; OAuth sign-in, Productify account required. Remote MCP `https://www.useproductify.com/api/mcp` | [Docs](https://www.useproductify.com/printify-chatgpt-mcp) |
+| 61 | **AppSkyline** | Hosted OAuth MCP for app-store keyword rankings, reviews and store listings. | [Config](https://github.com/appskyline/claude-plugin) · [Docs](https://www.appskyline.com/developers/#claude-mcp) |
+| 62 | **HairDora** | Read-only hosted OAuth MCP for salon availability, appointments, clients, services, quotes and payment status. | [Config](https://github.com/hairdora/claude-plugin) · [Docs](https://www.hairdora.com/developers/#mcp) |
+| 63 | **DodoDentist** | Read-only hosted OAuth MCP for dental-clinic metadata, free slots, dentist display names, treatment catalog prices and aggregate schedules. | [Config](https://github.com/dododentist/claude-plugin) · [Docs](https://www.dododentist.com/developers/#mcp) |
+| 64 | **DoctoFam** | Read-only hosted OAuth MCP for clinic metadata, free slots, doctor display names, rooms, service prices and aggregate schedules. | [Config](https://github.com/doctofam/claude-plugin) · [Docs](https://www.doctofam.com/developers/#mcp) |
+| 65 | **Veterical** | Read-only hosted OAuth MCP for veterinary-clinic metadata, free slots, vet display names, numeric service pricing and aggregate schedules and payments. | [Config](https://github.com/veterical/claude-plugin) · [Docs](https://www.veterical.com/developers/#mcp) |
+| 66 | **GymFlexa** | Read-only hosted OAuth MCP for gym configuration, free slots, service catalogs and aggregate schedules and payment totals. | [Config](https://github.com/gymflexa/claude-plugin) · [Docs](https://www.gymflexa.com/developers/#mcp) |
+| 67 | **Hotelumo** | Read-only hosted OAuth MCP for hotel room availability, rates, housekeeping, room status and aggregate stay schedules. | [Config](https://github.com/hotelumo/claude-plugin) · [Docs](https://www.hotelumo.com/developers/#mcp) |
+| 68 | **InvoiceVista** | Read-only hosted OAuth MCP for businesses, product catalogs and aggregate revenue, receivables and quote-pipeline summaries. | [Config](https://github.com/invoicevista/claude-plugin) · [Docs](https://www.invoicevista.com/developers/#mcp) |
 
 ### AI & Machine Learning
 
@@ -722,6 +732,104 @@ A representative selection is listed below:
 | 107 | github | Manage GitHub repositories and perform Git operations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md) |
 | 108 | kubernetes | Orchestrate and manage containerized applications | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kubernetes.md) |
 | 109 | postgresql | Interact with PostgreSQL databases | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgresql.md) |
+
+### Security & Authentication
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 110 | sentry | Monitor application errors and performance | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md) |
+| 111 | cyreslab-ai-shodan | Search for internet-connected devices using Shodan | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/cyreslab-ai-shodan.md) |
+| 112 | descope | Implement secure user authentication and authorization | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/descope.md) |
+| 113 | armor-crypto | Secure encryption and decryption tools for sensitive data | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/armor-crypto.md) |
+| 114 | **VirusTotal** | File and URL security analysis | [GitHub](https://github.com/skydeckai/virustotal-mcp-server) |
+| 115 | risken | Security risk management platform | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/risken.md) |
+| 116 | **Agent Module** | EU AI Act compliance logic for autonomous agents — risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP | [GitHub](https://github.com/AgentModule/mcp) |
+| 117 | **damn-vulnerable-MCP-server** | Intentionally vulnerable MCP server for security research, training, and CTF exercises | [GitHub](https://github.com/harishsg993010/damn-vulnerable-MCP-server) |
+| 118 | **operant-mcp** | Open-source MCP server with 51 security testing tools for pentesting, vulnerability scanning, and security auditing | [GitHub](https://github.com/operantlabs/operant-mcp) |
+| 119 | **mcp-for-beginners** | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. | [GitHub](https://github.com/microsoft/mcp-for-beginners) |
+| 120 | **fastapi_mcp** | Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth! | [GitHub](https://github.com/tadata-org/fastapi_mcp) |
+| 121 | **klavis** | Klavis AI:  MCP integration platforms that let AI agents use tools reliably at any scale | [GitHub](https://github.com/Klavis-AI/klavis) |
+| 122 | **osaurus** | Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source. | [GitHub](https://github.com/osaurus-ai/osaurus) |
+| 123 | **ENScan_GO** | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入 | [GitHub](https://github.com/wgpsec/ENScan_GO) |
+| 124 | **Gmail-MCP-Server** | A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop with auto authentication support. This server enables AI assistants to manage Gmail through natural language interactions. | [GitHub](https://github.com/GongRzhe/Gmail-MCP-Server) |
+| 125 | **open-connector** | Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI. | [GitHub](https://github.com/oomol-lab/open-connector) |
+| 126 | **tradingview-mcp** | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | [GitHub](https://github.com/atilaahmettaner/tradingview-mcp) |
+
+### Development Tools
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 127 | filesystem | Interact with file system and perform file operations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/filesystem.md) |
+| 128 | e2b | Cloud-based development environment | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/e2b.md) |
+| 129 | octomind | Automated testing and quality assurance platform | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/octomind.md) |
+| 130 | openapi-schema | API definition and documentation standard | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md) |
+| 131 | desktop-commander | Control desktop applications and perform system operations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md) |
+| 132 | **Roundtable** | **Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows** | [GitHub](https://github.com/askbudi/roundtable) |
+| 133 | **Asynkor** | Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf | [GitHub](https://github.com/asynkor/asynkor) |
+| 134 | **n8n-mcp** | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you  | [GitHub](https://github.com/czlonkowski/n8n-mcp) |
+| 135 | **xiaohongshu-mcp** | MCP for xiaohongshu.com | [GitHub](https://github.com/xpzouying/xiaohongshu-mcp) |
+| 136 | **Awesome-MCP-ZH** | MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients | [GitHub](https://github.com/yzfly/Awesome-MCP-ZH) |
+| 137 | **XcodeBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | [GitHub](https://github.com/getsentry/XcodeBuildMCP) |
+| 138 | **fast-agent** | Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support | [GitHub](https://github.com/evalstate/fast-agent) |
+| 139 | **memory-bank-mcp** | A Model Context Protocol (MCP) server implementation for remote memory bank management, inspired by Cline Memory Bank. | [GitHub](https://github.com/alioshr/memory-bank-mcp) |
+| 140 | **awesome-mcp-servers** | A curated list of Model Context Protocol (MCP) servers | [GitHub](https://github.com/wong2/awesome-mcp-servers) |
+| 141 | **Office-PowerPoint-MCP-Server** | A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol. | [GitHub](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) |
+| 142 | **mcp-server-guide** | A guide on how to use the Figma MCP server | [GitHub](https://github.com/figma/mcp-server-guide) |
+| 143 | **drawio-mcp-server** | Draw.io Model Context Protocol (MCP) Server | [GitHub](https://github.com/lgazo/drawio-mcp-server) |
+| 144 | **awesome-remote-mcp-servers** | Remote MCP Servers | [GitHub](https://github.com/jaw9c/awesome-remote-mcp-servers) |
+| 145 | **excel-mcp-server** | A Model Context Protocol (MCP) server that reads and writes MS Excel data | [GitHub](https://github.com/negokaz/excel-mcp-server) |
+| 146 | **server** | Core PHP implementation for the Model Context Protocol (MCP) server | [GitHub](https://github.com/php-mcp/server) |
+| 147 | **gadgethumans-api-hub-mcp** | 334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required. | [GitHub](https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp) |
+| 148 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/PortSwigger/mcp-server) |
+| 149 | **mcp-office-suite** | One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root. | [GitHub](https://github.com/theluckystrike/mcp-office-suite) |
+| 150 | **Multilocale** | Hosted OAuth MCP for translation projects, phrases, locales, missing-translation audits and dictionary exports. | [Config](https://github.com/multilocale/claude-plugin) · [Docs](https://www.multilocale.com/integrations/mcp-server/) |
+
+### Communication
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 151 | mcp-discord | Discord messaging and community management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md) |
+| 152 | line | Messaging application and platform integration | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/line.md) |
+| 153 | tweetbinder | Twitter/X analytics and social media insights | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tweetbinder.md) |
+| 154 | **supabase-mcp-server** | Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more. | [GitHub](https://github.com/alexander-zuev/supabase-mcp-server) |
+| 155 | **mcp-server-chatsum** | Query and Summarize your chat messages. | [GitHub](https://github.com/chatmcp/mcp-server-chatsum) |
+| 156 | **BulkPublish** | Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package. | [Docs](https://app.bulkpublish.com/docs) |
+| 157 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
+| 158 | **Supovia** | Hosted OAuth MCP for support conversation summaries, help-center documents, approved replies and resolution state. | [Config](https://github.com/supovia/claude-plugin) · [Docs](https://www.supovia.com/developers/#mcp) |
+| 159 | **Wapiworld** | Hosted OAuth MCP for WhatsApp sender connections, status, webhooks and confirmed text-message sending. | [Config](https://github.com/wapiworld/claude-plugin) · [Docs](https://app.wapiworld.com/developers#mcp) |
+
+### Knowledge Management
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 160 | obsidian | Work with Obsidian notes and knowledge management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/obsidian.md) |
+| 161 | fibery | Connected work platform for knowledge management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fibery.md) |
+| 162 | context7 | Provide contextual information for enhanced AI conversations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md) |
+| 163 | atlas-docs | Access MongoDB Atlas documentation and best practices | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md) |
+| 164 | **knowledge-rag** | Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers | [GitHub](https://github.com/lyonzin/knowledge-rag) |
+| 165 | **screenpipe** | 24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama. | [GitHub](https://github.com/screenpipe/screenpipe) |
+| 166 | **Hexis** | Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access. | [GitHub](https://github.com/Bevel-Software/Hexis) |
+| 167 | **mnemoverse/mcp-memory-server** | Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped. | [GitHub](https://github.com/mnemoverse/mcp-memory-server) |
+
+### Multimedia & Design
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 168 | gyazo | Screenshot capturing and sharing service | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md) |
+| 169 | handwriting-ocr | Optical character recognition for handwritten text | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md) |
+| 170 | webflow | Visual website design and content management system | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md) |
+| 171 | youtube_transcript | YouTube video transcript extraction | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md) |
+| 172 | speech-ai | Speech AI with pronunciation assessment, text-to-speech, and speech-to-text | [GitHub](https://github.com/fasuizu-br/speech-ai-examples) |
+| 173 | **Prompt to Asset** | MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models | [GitHub](https://github.com/MohamedAbdallah-14/prompt-to-asset) |
+| 174 | **OrkasVideoStudio** | Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly | [GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
+| 175 | **AI Applyd** | ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system | [GitHub](https://github.com/whateverneveranywhere/aiapplyd-mcp) |
+| 176 | **YouTube Transcript MCP** | MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients | [GitHub](https://github.com/ZeroPointRepo/youtube-mcp) |
+| 177 | **Magic Hour** | Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools | [GitHub](https://github.com/magichourhq/magic-hour-mcp) |
+| 178 | **BulkTranscripts** | Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking | [GitHub](https://github.com/pratie/bulktranscripts-mcp) |
+| 179 | **Tutorializer** | Hosted OAuth MCP for video tutorial definitions, rendered outputs, voiceovers and pronunciation rules. | [Config](https://github.com/tutorializer/claude-plugin) · [Docs](https://www.tutorializer.com/developers/#mcp) |
+| 180 | **Imagelato** | Hosted OAuth MCP for image-processing presets, projects, processed batches and webhook delivery health. | [Config](https://github.com/imagelato/claude-plugin) · [Docs](https://www.imagelato.com/developers/#claude-mcp) |
+
+
 
 ### Installation Steps
 
