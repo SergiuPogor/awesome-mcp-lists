@@ -4,8 +4,8 @@
     "servers": 362,
     "clients": 21,
     "toolkits": 44,
-    "docker": 184,
-    "total": 611
+    "docker": 185,
+    "total": 612
   },
   "groups": {
     "servers": [
@@ -3679,6 +3679,12 @@
         "name": "PodcastsToText",
         "description": "Hosted MCP server (OAuth) that transcribes Spotify, Apple Podcasts, YouTube and TikTok links or audio files with speaker labels and timestamps, then generates show notes, chapters and translations",
         "url": "https://github.com/marstyl99/podcaststotext-agent",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Speak AI",
+        "description": "Hosted MCP server (also on npm as @speakai/mcp-server) for transcribing, analyzing and scoring meetings, sales calls and media in 100+ languages, with search and AI chat over recordings; 107 tools; OAuth or API key; Speak AI account required",
+        "url": "https://github.com/speakai/speakai-mcp",
         "category": "Multimedia & Design"
       }
     ]
