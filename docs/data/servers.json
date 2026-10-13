@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 360,
+    "servers": 361,
     "clients": 21,
     "toolkits": 44,
     "docker": 182,
-    "total": 607
+    "total": 608
   },
   "groups": {
     "servers": [
@@ -1261,6 +1261,12 @@
         "name": "GovContractScout MCP",
         "description": "MCP server exposing GovContractScout's US state & local government contracts API — search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp`",
         "url": "https://github.com/govcontractscout/govcontractscout-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "crawlgraph",
+        "description": "Common Crawl backlink research, competitor gap analysis, and outreach-target discovery with a CrawlGraph API key; build the stdio server from the repository Dockerfile",
+        "url": "https://github.com/pucilpet/crawlgraph-mcp",
         "category": "Integrations & APIs"
       },
       {
