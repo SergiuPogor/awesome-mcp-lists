@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 369,
+    "servers": 370,
     "clients": 21,
     "toolkits": 44,
     "docker": 188,
-    "total": 622
+    "total": 623
   },
   "groups": {
     "servers": [
@@ -1315,6 +1315,12 @@
         "name": "LogNorm",
         "description": "Hosted Streamable HTTP MCP server that hands a site's SEO/GEO growth backlog (site audits, fixes, content drafts, AI-visibility tracking) to Claude Code, Codex and Cursor; OAuth 2.1, no API keys; LogNorm account required (free plan). Website",
         "url": "https://lognorm.com",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Floatout",
+        "description": "Floatout's public, read-only MCP server. Look up Floatout plans and pricing, read Floatout guides on launching a Hyperliquid perps and prediction market DEX, and query Floatout's Hyperliquid builder-fee research. Hosted Streamable HTTP at https://floatout.xyz/api/mcp, no auth",
+        "url": "https://floatout.xyz",
         "category": "Integrations & APIs"
       },
       {
