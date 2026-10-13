@@ -839,6 +839,7 @@ A representative selection is listed below:
 | 167 | **mnemoverse/mcp-memory-server** | Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped. | [GitHub](https://github.com/mnemoverse/mcp-memory-server) |
 | 168 | **knowledge-rag** | Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers | [GitHub](https://github.com/lyonzin/knowledge-rag) |
 | 169 | **ContextStream** | Shared project context for AI agents across Cursor, Claude Code, Codex, Grok, and other MCP clients. Hosted MCP at `io.contextstream/mcp`. [Benchmarks](https://contextstream.io/benchmarks) | [Site](https://contextstream.io) |
+| 170 | **Paste MCP** | Official local MCP server for Paste, the Mac clipboard manager. Search clipboard history, use copied items as context, and save output to pinboards | [GitHub](https://github.com/pasteapp/paste-mcp) |
 
 ### Multimedia & Design
 
