@@ -4,8 +4,8 @@
     "servers": 368,
     "clients": 21,
     "toolkits": 44,
-    "docker": 185,
-    "total": 618
+    "docker": 186,
+    "total": 619
   },
   "groups": {
     "servers": [
@@ -3721,6 +3721,12 @@
         "name": "Speak AI",
         "description": "Hosted MCP server (also on npm as @speakai/mcp-server) for transcribing, analyzing and scoring meetings, sales calls and media in 100+ languages, with search and AI chat over recordings; 107 tools; OAuth or API key; Speak AI account required",
         "url": "https://github.com/speakai/speakai-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "MagicPixel",
+        "description": "Hosted MCP server for AI pixel art: generate sprites, variants and new facing directions, browse and buy community marketplace assets, and manage your MagicPixel library. Remote endpoint https://magicpixel.art/mcp with OAuth sign-in",
+        "url": "https://magicpixel.art/guides/connect",
         "category": "Multimedia & Design"
       }
     ]
