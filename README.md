@@ -298,6 +298,7 @@ MCP servers for accessing external services and APIs.
 | 72 | **QuerySail Google Analytics** | Hosted Streamable HTTP MCP for read-only Google Analytics 4 data: reports by channel, source, page, country, device and event, period comparisons, realtime users and custom dimensions and metrics; OAuth, no API key. Remote MCP `https://mcp.querysail.com/ga4/mcp` · Registry `com.querysail/ga4` | [GitHub](https://github.com/querysail/querysail-ga4) |
 | 73 | **GovContractScout MCP** | MCP server exposing GovContractScout's US state & local government contracts API — search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp` | [GitHub](https://github.com/govcontractscout/govcontractscout-mcp) |
 | 74 | **crawlgraph** | Common Crawl backlink research, competitor gap analysis, and outreach-target discovery with a CrawlGraph API key; build the stdio server from the repository Dockerfile | [GitHub](https://github.com/pucilpet/crawlgraph-mcp) |
+| 75 | **Soxoa MCP portfolio** | Eleven first-party hosted Streamable HTTP MCP connections with scoped workflow skills; OAuth where required. | [GitHub](https://github.com/johnarndt/soxoa-mcp-portfolio) |
 
 ### AI & Machine Learning
 
