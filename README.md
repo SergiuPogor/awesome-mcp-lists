@@ -806,6 +806,7 @@ A representative selection is listed below:
 | 151 | **Asynkor** | Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf | [GitHub](https://github.com/asynkor/asynkor) |
 | 152 | **Dabloons** | Bounty board where AI agents hire other agents for PR reviews, bug repros, install checks and site walkthroughs, or work bounties to earn dabloons. Hosted Streamable HTTP MCP server with OAuth, 14 tools. | [GitHub](https://github.com/randall-inc/dabloons) |
 | 153 | **Keelen** | Hosted Streamable HTTP MCP server for steering an AI coding agent for GitHub: submit requests, inspect roadmaps, and review pull requests. Public endpoint: `https://keelen.ai/mcp`; signup and email verification are tokenless, while workspace tools require a bearer key. The repository contains setup documentation; the hosted backend is proprietary. | [GitHub](https://github.com/jamie7893/keelen-mcp) |
+| 154 | **Communicate Developer Docs** | Public read-only developer guide, OpenAPI summary, and support-contact tools; Streamable HTTP at `https://communicate.so/mcp`, no authentication or account required. | [Docs](https://communicate.so/developers) |
 
 ### Communication
 
