@@ -4,8 +4,8 @@
     "servers": 371,
     "clients": 21,
     "toolkits": 44,
-    "docker": 188,
-    "total": 624
+    "docker": 189,
+    "total": 625
   },
   "groups": {
     "servers": [
@@ -3757,6 +3757,12 @@
         "name": "CompressGIF",
         "description": "Compress GIFs from HTTPS URLs, poll compression jobs, and check credit usage over Streamable HTTP with API key authentication.",
         "url": "https://compressgif.net/docs",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "KitCut",
+        "description": "Hosted remote MCP server (OAuth) that makes narrated, scored animated films from a chat: from an idea or a video template (event and speaker promos, invitations), with series projects and YouTube publishing",
+        "url": "https://kitcut.ai/docs/assistants",
         "category": "Multimedia & Design"
       }
     ]
