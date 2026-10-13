@@ -310,6 +310,7 @@ MCP servers for accessing external services and APIs.
 | 81 | **Floatout** | Floatout's public, read-only MCP server. Look up Floatout plans and pricing, read Floatout guides on launching a Hyperliquid perps and prediction market DEX, and query Floatout's Hyperliquid builder-fee research. Hosted Streamable HTTP at https://floatout.xyz/api/mcp, no auth | [Website](https://floatout.xyz) |
 | 82 | **Soundcheck Instant Quotes** | Live-event quoting for businesses that sell live event services (hosted public MCP, no auth) | [GitHub](https://github.com/soundchecklive/soundcheck-plugin) |
 | 83 | **PumpGTM** | Hosted remote MCP server (Streamable HTTP, OAuth) that finds buyers, runs LinkedIn, email and X outreach from your own accounts, and hands replies back to a human. Endpoint `https://mcp.pumpgtm.com/mcp` | [GitHub](https://github.com/pumpgtm/pumpgtm-mcp) |
+| 84 | **Fast GST Refund** | Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP. | [GitHub](https://github.com/syllogismos/fast-gst-refund-mcp) |
 
 ### AI & Machine Learning
 
