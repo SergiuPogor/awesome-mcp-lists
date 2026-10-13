@@ -141,6 +141,7 @@ MCP servers for accessing and managing databases and storage solutions.
 | 25 | **GoNavi** | High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. &#124; 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。 | [GitHub](https://github.com/Syngnat/GoNavi) |
 | 26 | **x64dbg-mcp-server** | x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros | [GitHub](https://github.com/duty1g/x64dbg-mcp-server) |
 | 27 | **Douyin_TikTok_Download_API** | 🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。&#124; Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.  | TBD | [GitHub](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) |
+| 28 | **Prisma MCP Server** | Official hosted MCP server (Streamable HTTP, sign in with a Prisma account) for managing Prisma Postgres databases, running SQL, and managing Prisma Compute deployments and Object Storage | [Docs](https://www.prisma.io/docs/ai/tools/mcp-server) |
 
 ### Web & Content
 
