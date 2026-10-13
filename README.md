@@ -191,6 +191,7 @@ MCP servers for web search, content access, and web automation.
 | 42 | **google-ads-meta-ads-mcp** | Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + GA4 + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: 250+ tools, OAuth login, no API keys, approval-gated writes, free. By Ryze AI. | TBD | [GitHub](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) |
 | 43 | **vexa** | Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS. | TBD | [GitHub](https://github.com/Vexa-ai/vexa) |
 | 44 | **invisible_playwright_mcp** | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use. | TBD | [GitHub](https://github.com/feder-cr/invisible_playwright_mcp) |
+| 45 | **Apple Docs 2.0 MCP** | Apple developer documentation, Human Interface Guidelines and 1,700 WWDC sessions (2014–2026) with code for coding agents; search with developer.apple.com's own results and an offline index of 336,629 pages. Local stdio via `npx -y apple-docs-2.0-mcp` · Registry `io.github.mishafyi/apple-docs-2.0-mcp` | [GitHub](https://github.com/mishafyi/Apple-Docs-2.0-MCP) |
 
 ### Integrations & APIs
 
