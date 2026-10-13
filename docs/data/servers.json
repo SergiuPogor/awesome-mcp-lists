@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 357,
+    "servers": 359,
     "clients": 21,
     "toolkits": 44,
     "docker": 180,
-    "total": 602
+    "total": 604
   },
   "groups": {
     "servers": [
@@ -1243,6 +1243,18 @@
         "name": "AgentoolRank",
         "description": "Hosted Streamable HTTP MCP (`https://agentoolrank.com/api/mcp`) for searching open-source AI agent tools and MCP servers ranked by live GitHub activity, refreshed daily, with alternatives for any tool; read-only search needs no API key",
         "url": "https://github.com/agent-gigmole/agentoolrank-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "QuerySail",
+        "description": "Hosted Streamable HTTP MCP for read-only Google Search Console data: search performance by query, page, country, device and date, period comparisons, URL inspection and sitemaps; OAuth, no API key. Remote MCP `https://mcp.querysail.com/gsc/mcp` · Registry `com.querysail/gsc`",
+        "url": "https://github.com/querysail/querysail-gsc",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "QuerySail Google Analytics",
+        "description": "Hosted Streamable HTTP MCP for read-only Google Analytics 4 data: reports by channel, source, page, country, device and event, period comparisons, realtime users and custom dimensions and metrics; OAuth, no API key. Remote MCP `https://mcp.querysail.com/ga4/mcp` · Registry `com.querysail/ga4`",
+        "url": "https://github.com/querysail/querysail-ga4",
         "category": "Integrations & APIs"
       },
       {
