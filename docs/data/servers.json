@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 355,
+    "servers": 356,
     "clients": 21,
     "toolkits": 44,
     "docker": 180,
-    "total": 600
+    "total": 601
   },
   "groups": {
     "servers": [
@@ -1231,6 +1231,12 @@
         "name": "InvoiceVista",
         "description": "Read-only hosted OAuth MCP for businesses, product catalogs and aggregate revenue, receivables and quote-pipeline summaries.",
         "url": "https://github.com/invoicevista/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Quantral",
+        "description": "Stock sentiment for US and Korean stocks: 0-100 signal scores from tracked X, Reddit, Substack and Naver accounts plus Congress trades and insider buys, the posts behind each score, monthly recaps, and rule-based model portfolios tracked against the S&P 500. Hosted Streamable HTTP MCP `https://app.quantral.com/api/mcp`, 8 read-only tools, OAuth; Quantral subscription required. Registry `com.quantral/sentiment`",
+        "url": "https://quantral.com/mcp",
         "category": "Integrations & APIs"
       },
       {
