@@ -4,8 +4,8 @@
     "servers": 374,
     "clients": 21,
     "toolkits": 44,
-    "docker": 192,
-    "total": 631
+    "docker": 193,
+    "total": 632
   },
   "groups": {
     "servers": [
@@ -3565,6 +3565,12 @@
         "name": "Keelen",
         "description": "Hosted Streamable HTTP MCP server for steering an AI coding agent for GitHub: submit requests, inspect roadmaps, and review pull requests. Public endpoint: `https://keelen.ai/mcp`; signup and email verification are tokenless, while workspace tools require a bearer key. The repository contains setup documentation; the hosted backend is proprietary.",
         "url": "https://github.com/jamie7893/keelen-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Communicate Developer Docs",
+        "description": "Public read-only developer guide, OpenAPI summary, and support-contact tools; Streamable HTTP at `https://communicate.so/mcp`, no authentication or account required.",
+        "url": "https://communicate.so/developers",
         "category": "Development Tools"
       },
       {
