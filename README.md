@@ -638,6 +638,7 @@ There are currently 110 MCP servers available:
 | 22 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/PortSwigger/mcp-server) |
 | 23 | **mcp-office-suite** | One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root. | [GitHub](https://github.com/theluckystrike/mcp-office-suite) |
 | 24 | **MobileBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | TBD | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
+| 25 | **OtaKit** | Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert | [Website](https://otakit.app) · [GitHub](https://github.com/OtaKit/otakit) |
 
 ### Communication
 
