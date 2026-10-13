@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 374,
+    "servers": 375,
     "clients": 21,
     "toolkits": 44,
     "docker": 193,
-    "total": 632
+    "total": 633
   },
   "groups": {
     "servers": [
@@ -1345,6 +1345,12 @@
         "name": "Fast GST Refund",
         "description": "Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP.",
         "url": "https://github.com/syllogismos/fast-gst-refund-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "TableJourney",
+        "description": "Free remote MCP server and REST API for food travel data in 214 cities: verified restaurants, food festivals with resolved dates, day plans, and bookable food tours",
+        "url": "https://github.com/lewismvaughan/tablejourney-mcp",
         "category": "Integrations & APIs"
       },
       {
