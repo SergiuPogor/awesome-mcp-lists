@@ -129,6 +129,9 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 60 | **atlassian-mcp-server** | Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens. | [GitHub](https://github.com/atlassian/atlassian-mcp-server) |
 | 61 | **SolidPing** | Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio. | [GitHub](https://github.com/fclairamb/solidping) |
 | 62 | **Croncool** | Hosted OAuth MCP for scheduled jobs, execution history, workflows, webhook health and confirmed run-now actions. | [Config](https://github.com/croncool/claude-plugin) · [Docs](https://www.cron.cool/developers/#mcp) |
+| 63 | **pdf-merge-split-stamp** | Merge, split, extract, rotate, reorder and stamp PDF pages from your AI chat, all offline. Deterministic, with no upload and no cloud dependency. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/pdf) |
+| 64 | **invoice-pdf-billing** | Create PDF invoices from your AI chat: clients, numbering, VAT, overdue reports. All data is local, so billing data never leaves the host. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice) |
+| 65 | **time-tracker-timesheet** | Track billable time from your AI chat: timers, entries, reports, CSV export. All data stays local, useful for freelancers and consultancies billing hours. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker) |
 
 ### Database & Storage
 
