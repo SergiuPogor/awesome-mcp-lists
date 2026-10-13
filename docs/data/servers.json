@@ -4,8 +4,8 @@
     "servers": 361,
     "clients": 21,
     "toolkits": 44,
-    "docker": 182,
-    "total": 608
+    "docker": 183,
+    "total": 609
   },
   "groups": {
     "servers": [
@@ -3523,6 +3523,12 @@
         "name": "Wapiworld",
         "description": "Hosted OAuth MCP for WhatsApp sender connections, status, webhooks and confirmed text-message sending.",
         "url": "https://github.com/wapiworld/claude-plugin",
+        "category": "Communication"
+      },
+      {
+        "name": "Fluxmail",
+        "description": "Self-hosted email for Gmail, Outlook, Exchange, and IMAP/SMTP: search, read, draft, send, schedule, and organize mail with per-client permissions.",
+        "url": "https://github.com/churichard/fluxmail",
         "category": "Communication"
       },
       {
