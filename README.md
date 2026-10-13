@@ -293,6 +293,7 @@ MCP servers for accessing external services and APIs.
 | 67 | **Hotelumo** | Read-only hosted OAuth MCP for hotel room availability, rates, housekeeping, room status and aggregate stay schedules. | [Config](https://github.com/hotelumo/claude-plugin) · [Docs](https://www.hotelumo.com/developers/#mcp) |
 | 68 | **InvoiceVista** | Read-only hosted OAuth MCP for businesses, product catalogs and aggregate revenue, receivables and quote-pipeline summaries. | [Config](https://github.com/invoicevista/claude-plugin) · [Docs](https://www.invoicevista.com/developers/#mcp) |
 | 69 | **Quantral** | Stock sentiment for US and Korean stocks: 0-100 signal scores from tracked X, Reddit, Substack and Naver accounts plus Congress trades and insider buys, the posts behind each score, monthly recaps, and rule-based model portfolios tracked against the S&P 500. Hosted Streamable HTTP MCP `https://app.quantral.com/api/mcp`, 8 read-only tools, OAuth; Quantral subscription required. Registry `com.quantral/sentiment` | [Docs](https://quantral.com/mcp) |
+| 70 | **AgentoolRank** | Hosted Streamable HTTP MCP (`https://agentoolrank.com/api/mcp`) for searching open-source AI agent tools and MCP servers ranked by live GitHub activity, refreshed daily, with alternatives for any tool; read-only search needs no API key | [GitHub](https://github.com/agent-gigmole/agentoolrank-mcp) |
 
 ### AI & Machine Learning
 
