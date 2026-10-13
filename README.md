@@ -303,6 +303,7 @@ MCP servers for accessing external services and APIs.
 | 76 | **Midpoint Card Prices** | Read-only trading card market data: raw and PSA/CGC/BGS graded prices for 1.5M+ Pokémon, Magic, Yu-Gi-Oh! and sports cards, grading ROI, price history and 30-day movers. Hosted at https://mcp.cardcenteringtool.com/mcp, no API key | [GitHub](https://github.com/kolourr/midpoint-mcp) |
 | 77 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
 | 78 | **Adrio** | AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required | [Docs](https://adrio.ai/docs/mcp) |
+| 79 | **UGC VZ** | Query a creator directory for the German-speaking market: filter UGC creators by topic or city, open public profiles, and file a brand contact request answered by e-mail. Hosted Streamable HTTP without an account or key; npm stdio bridge in the repo | [GitHub](https://github.com/ugcvz/ugc-vz-mcp) |
 
 ### AI & Machine Learning
 
