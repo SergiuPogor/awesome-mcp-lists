@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 363,
+    "servers": 365,
     "clients": 21,
     "toolkits": 44,
     "docker": 185,
-    "total": 613
+    "total": 615
   },
   "groups": {
     "servers": [
@@ -1279,6 +1279,18 @@
         "name": "Midpoint Card Prices",
         "description": "Read-only trading card market data: raw and PSA/CGC/BGS graded prices for 1.5M+ Pokémon, Magic, Yu-Gi-Oh! and sports cards, grading ROI, price history and 30-day movers. Hosted at https://mcp.cardcenteringtool.com/mcp, no API key",
         "url": "https://github.com/kolourr/midpoint-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Influence MCP",
+        "description": "Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required",
+        "url": "https://github.com/influence-so/influence-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Adrio",
+        "description": "AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required",
+        "url": "https://adrio.ai/docs/mcp",
         "category": "Integrations & APIs"
       },
       {
