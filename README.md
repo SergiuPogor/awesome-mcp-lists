@@ -304,6 +304,7 @@ MCP servers for accessing external services and APIs.
 | 77 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
 | 78 | **Adrio** | AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required | [Docs](https://adrio.ai/docs/mcp) |
 | 79 | **UGC VZ** | Query a creator directory for the German-speaking market: filter UGC creators by topic or city, open public profiles, and file a brand contact request answered by e-mail. Hosted Streamable HTTP without an account or key; npm stdio bridge in the repo | [GitHub](https://github.com/ugcvz/ugc-vz-mcp) |
+| 80 | **LogNorm** | Hosted Streamable HTTP MCP server that hands a site's SEO/GEO growth backlog (site audits, fixes, content drafts, AI-visibility tracking) to Claude Code, Codex and Cursor; OAuth 2.1, no API keys; LogNorm account required (free plan). [Website](https://lognorm.com) | [GitHub](https://github.com/lognorm/lognorm-mcp) |
 
 ### AI & Machine Learning
 
