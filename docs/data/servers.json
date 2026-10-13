@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 362,
+    "servers": 363,
     "clients": 21,
     "toolkits": 44,
     "docker": 185,
-    "total": 612
+    "total": 613
   },
   "groups": {
     "servers": [
@@ -1273,6 +1273,12 @@
         "name": "Soxoa MCP portfolio",
         "description": "Eleven first-party hosted Streamable HTTP MCP connections with scoped workflow skills; OAuth where required.",
         "url": "https://github.com/johnarndt/soxoa-mcp-portfolio",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Midpoint Card Prices",
+        "description": "Read-only trading card market data: raw and PSA/CGC/BGS graded prices for 1.5M+ Pokémon, Magic, Yu-Gi-Oh! and sports cards, grading ROI, price history and 30-day movers. Hosted at https://mcp.cardcenteringtool.com/mcp, no API key",
+        "url": "https://github.com/kolourr/midpoint-mcp",
         "category": "Integrations & APIs"
       },
       {
