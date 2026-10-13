@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 366,
+    "servers": 367,
     "clients": 21,
     "toolkits": 44,
     "docker": 185,
-    "total": 616
+    "total": 617
   },
   "groups": {
     "servers": [
@@ -1297,6 +1297,12 @@
         "name": "Adrio",
         "description": "AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required",
         "url": "https://adrio.ai/docs/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "UGC VZ",
+        "description": "Query a creator directory for the German-speaking market: filter UGC creators by topic or city, open public profiles, and file a brand contact request answered by e-mail. Hosted Streamable HTTP without an account or key; npm stdio bridge in the repo",
+        "url": "https://github.com/ugcvz/ugc-vz-mcp",
         "category": "Integrations & APIs"
       },
       {
