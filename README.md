@@ -296,6 +296,7 @@ MCP servers for accessing external services and APIs.
 | 70 | **AgentoolRank** | Hosted Streamable HTTP MCP (`https://agentoolrank.com/api/mcp`) for searching open-source AI agent tools and MCP servers ranked by live GitHub activity, refreshed daily, with alternatives for any tool; read-only search needs no API key | [GitHub](https://github.com/agent-gigmole/agentoolrank-mcp) |
 | 71 | **QuerySail** | Hosted Streamable HTTP MCP for read-only Google Search Console data: search performance by query, page, country, device and date, period comparisons, URL inspection and sitemaps; OAuth, no API key. Remote MCP `https://mcp.querysail.com/gsc/mcp` · Registry `com.querysail/gsc` | [GitHub](https://github.com/querysail/querysail-gsc) |
 | 72 | **QuerySail Google Analytics** | Hosted Streamable HTTP MCP for read-only Google Analytics 4 data: reports by channel, source, page, country, device and event, period comparisons, realtime users and custom dimensions and metrics; OAuth, no API key. Remote MCP `https://mcp.querysail.com/ga4/mcp` · Registry `com.querysail/ga4` | [GitHub](https://github.com/querysail/querysail-ga4) |
+| 73 | **GovContractScout MCP** | MCP server exposing GovContractScout's US state & local government contracts API — search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp` | [GitHub](https://github.com/govcontractscout/govcontractscout-mcp) |
 
 ### AI & Machine Learning
 
