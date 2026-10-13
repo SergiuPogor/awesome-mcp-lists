@@ -3,9 +3,9 @@
   "counts": {
     "servers": 375,
     "clients": 21,
-    "toolkits": 44,
+    "toolkits": 45,
     "docker": 195,
-    "total": 635
+    "total": 636
   },
   "groups": {
     "servers": [
@@ -2555,6 +2555,12 @@
         "name": "ToolRouter",
         "description": "Give your AI agent superpowers with access to 150+ tools on demand with just one account. Competitor research, video production, web search, image generation, security scanning, and more. One API key replaces managing dozens of provider accounts. `npx -y toolrouter-mcp`",
         "url": "https://toolrouter.com",
+        "category": "Hosting Solutions"
+      },
+      {
+        "name": "Aident Loadout",
+        "description": "Remote MCP capability layer: connect Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ Skills through one reusable setup (OAuth vault, one balance, audit). MCP URL `https://loadout.aident.ai/mcp`. Skill: Aident-AI/aident-skill",
+        "url": "https://aident.ai",
         "category": "Hosting Solutions"
       },
       {
