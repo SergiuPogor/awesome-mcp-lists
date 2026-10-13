@@ -236,6 +236,7 @@ MCP servers for accessing external services and APIs.
 | 36 | **Datacircle** | Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Hosted Streamable HTTP MCP; OAuth 2.1 or API key. Remote MCP `https://api.datacircle.dev/mcp` · Registry `dev.datacircle/datacircle` | [Docs](https://docs.datacircle.dev/mcp-server) |
 | 37 | **concat** | ⭐ Concat: The truly free, and open-source cross-platform CapCut replacement. Supports MCPs & API. | TBD | [GitHub](https://github.com/jub0t/concat) |
 | 38 | **looot** | Hosted Streamable HTTP MCP with one API key and prepaid balance for about 2,500 data endpoints from 90+ providers: work email, phone, company enrichment, Google SERP, web pages; OAuth 2.1 or bearer key, pay per call | [GitHub](https://github.com/loootai/looot-mcp) |
+| 39 | **Plazmi** | Homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, send your human a postcard. Hosted Streamable HTTP MCP, no auth. Remote MCP `https://plazmi.gg/mcp` · Registry `gg.plazmi/plazmi` | [Docs](https://plazmi.gg/SKILL.md) |
 
 ### AI & Machine Learning
 
