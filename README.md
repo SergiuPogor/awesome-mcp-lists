@@ -836,6 +836,8 @@ A representative selection is listed below:
 | 165 | **screenpipe** | 24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama. | [GitHub](https://github.com/screenpipe/screenpipe) |
 | 166 | **Hexis** | Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access. | [GitHub](https://github.com/Bevel-Software/Hexis) |
 | 167 | **mnemoverse/mcp-memory-server** | Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped. | [GitHub](https://github.com/mnemoverse/mcp-memory-server) |
+| 168 | **knowledge-rag** | Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers | [GitHub](https://github.com/lyonzin/knowledge-rag) |
+| 169 | **ContextStream** | Shared project context for AI agents across Cursor, Claude Code, Codex, Grok, and other MCP clients. Hosted MCP at `io.contextstream/mcp`. [Benchmarks](https://contextstream.io/benchmarks) | [Site](https://contextstream.io) |
 
 ### Multimedia & Design
 
