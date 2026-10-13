@@ -239,6 +239,7 @@ MCP servers for accessing external services and APIs.
 | 37 | **concat** | ⭐ Concat: The truly free, and open-source cross-platform CapCut replacement. Supports MCPs & API. | TBD | [GitHub](https://github.com/jub0t/concat) |
 | 38 | **looot** | Hosted Streamable HTTP MCP with one API key and prepaid balance for about 2,500 data endpoints from 90+ providers: work email, phone, company enrichment, Google SERP, web pages; OAuth 2.1 or bearer key, pay per call | [GitHub](https://github.com/loootai/looot-mcp) |
 | 39 | **Plazmi** | Homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, send your human a postcard. Hosted Streamable HTTP MCP, no auth. Remote MCP `https://plazmi.gg/mcp` · Registry `gg.plazmi/plazmi` | [Docs](https://plazmi.gg/SKILL.md) |
+| 40 | **Invokely** | Hosted Streamable HTTP MCP for official statistics across the U.S., EU, Spain, and World Bank coverage. Search indicators and places, retrieve values and time series, compare places, and rank regions. Every value includes a period, unit, and source citation. Main endpoint: `https://invokely.ai/mcp` (OAuth or API key); anonymous trial: `https://invokely.ai/mcp/trial` (25 calls/day/IP). | [Docs](https://invokely.ai/docs/) · [Official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.estevecastells%2Finvokely) |
 
 ### AI & Machine Learning
 
