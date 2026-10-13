@@ -245,6 +245,7 @@ MCP servers for accessing external services and APIs.
 | 42 | **BankBridge** | Read-only access to US bank accounts, credit card transactions and investment holdings for AI agents: spending, subscriptions, cashflow. Hosted Streamable HTTP MCP; OAuth 2.1 or API key; paid subscription per connected bank. Remote MCP `https://bankbridge.money/api/mcp` · Registry `money.bankbridge/server` | [GitHub](https://github.com/bankbridge-money/bankbridge-plugin) |
 | 43 | **Unusual Whales MCP** | Official Unusual Whales MCP server: options flow, dark pool prints, congressional trades, Greek exposure, volatility, futures and prediction markets. Hosted Streamable HTTP at `https://api.unusualwhales.com/api/mcp` with an Unusual Whales API key as a bearer token, or local stdio via `npx -y @unusualwhales/mcp` | [GitHub](https://github.com/unusual-whales/unusual-whales-official-mcp) |
 | 44 | **ZenMode** | Hosted Streamable HTTP MCP for LinkedIn outreach: read campaigns, contacts and conversation history, add or remove leads, and change campaign targeting; OAuth or API key; ZenMode plan required (Practitioner and above) | [GitHub](https://github.com/zenmode87/zenmode-mcp) |
+| 45 | **Cryptowisser News** | Up-to-date crypto news from Cryptowisser's newsroom: the latest headlines, news on any coin, company or person, this week's biggest stories and full articles, all with source links. Hosted Streamable HTTP, no auth: `https://www.cryptowisser.com/mcp/server` | [GitHub](https://github.com/cryptowisser-com/cryptowisser-news-plugin) |
 
 ### AI & Machine Learning
 
