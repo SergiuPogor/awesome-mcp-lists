@@ -4,8 +4,8 @@
     "servers": 362,
     "clients": 21,
     "toolkits": 44,
-    "docker": 183,
-    "total": 610
+    "docker": 184,
+    "total": 611
   },
   "groups": {
     "servers": [
@@ -3673,6 +3673,12 @@
         "name": "VidTL",
         "description": "Hosted Streamable HTTP MCP for VidTL, a browser video editor: cut and arrange clips, edit by transcript, subtitles, audio cleanup, effects, motion graphics, stock media and export, applied live in the user's open editor session; OAuth with dynamic client registration; VidTL Pro plan required",
         "url": "https://vidtl.com/video-editor-mcp-cli/",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "PodcastsToText",
+        "description": "Hosted MCP server (OAuth) that transcribes Spotify, Apple Podcasts, YouTube and TikTok links or audio files with speaker labels and timestamps, then generates show notes, chapters and translations",
+        "url": "https://github.com/marstyl99/podcaststotext-agent",
         "category": "Multimedia & Design"
       }
     ]
