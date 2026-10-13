@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 372,
+    "servers": 373,
     "clients": 21,
     "toolkits": 44,
     "docker": 191,
-    "total": 628
+    "total": 629
   },
   "groups": {
     "servers": [
@@ -1333,6 +1333,12 @@
         "name": "Soundcheck Instant Quotes",
         "description": "Live-event quoting for businesses that sell live event services (hosted public MCP, no auth)",
         "url": "https://github.com/soundchecklive/soundcheck-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "PumpGTM",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth) that finds buyers, runs LinkedIn, email and X outreach from your own accounts, and hands replies back to a human. Endpoint `https://mcp.pumpgtm.com/mcp`",
+        "url": "https://github.com/pumpgtm/pumpgtm-mcp",
         "category": "Integrations & APIs"
       },
       {
