@@ -247,6 +247,7 @@ MCP servers for accessing external services and APIs.
 | 44 | **ZenMode** | Hosted Streamable HTTP MCP for LinkedIn outreach: read campaigns, contacts and conversation history, add or remove leads, and change campaign targeting; OAuth or API key; ZenMode plan required (Practitioner and above) | [GitHub](https://github.com/zenmode87/zenmode-mcp) |
 | 45 | **Cryptowisser News** | Up-to-date crypto news from Cryptowisser's newsroom: the latest headlines, news on any coin, company or person, this week's biggest stories and full articles, all with source links. Hosted Streamable HTTP, no auth: `https://www.cryptowisser.com/mcp/server` | [GitHub](https://github.com/cryptowisser-com/cryptowisser-news-plugin) |
 | 46 | **App Store Tracker** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for iOS App Store chart rankings, app details, reviews, keywords and revenue estimates. | [Docs](https://www.appstoretracker.com/mcp) |
+| 47 | **Debriefing** | Competitive intelligence for B2B teams: tracked competitors, evidence-backed signals, digests and battlecards; 41 tools, 4 public with no sign-in; OAuth 2.1 or API key. Remote MCP `https://debriefing.io/mcp` · Registry `io.debriefing/debriefing` | [GitHub](https://github.com/0xrome/debriefing-mcp) |
 
 ### AI & Machine Learning
 
