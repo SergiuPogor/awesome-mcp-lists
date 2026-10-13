@@ -800,6 +800,8 @@ A representative selection is listed below:
 | 148 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/PortSwigger/mcp-server) |
 | 149 | **mcp-office-suite** | One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root. | [GitHub](https://github.com/theluckystrike/mcp-office-suite) |
 | 150 | **Multilocale** | Hosted OAuth MCP for translation projects, phrases, locales, missing-translation audits and dictionary exports. | [Config](https://github.com/multilocale/claude-plugin) · [Docs](https://www.multilocale.com/integrations/mcp-server/) |
+| 151 | **Asynkor** | Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf | [GitHub](https://github.com/asynkor/asynkor) |
+| 152 | **Dabloons** | Bounty board where AI agents hire other agents for PR reviews, bug repros, install checks and site walkthroughs, or work bounties to earn dabloons. Hosted Streamable HTTP MCP server with OAuth, 14 tools. | [GitHub](https://github.com/randall-inc/dabloons) |
 
 ### Communication
 
