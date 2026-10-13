@@ -848,6 +848,7 @@ A representative selection is listed below:
 | 183 | **PodcastsToText** | Hosted MCP server (OAuth) that transcribes Spotify, Apple Podcasts, YouTube and TikTok links or audio files with speaker labels and timestamps, then generates show notes, chapters and translations | [GitHub](https://github.com/marstyl99/podcaststotext-agent) |
 | 184 | **Speak AI** | Hosted MCP server (also on npm as @speakai/mcp-server) for transcribing, analyzing and scoring meetings, sales calls and media in 100+ languages, with search and AI chat over recordings; 107 tools; OAuth or API key; Speak AI account required | [GitHub](https://github.com/speakai/speakai-mcp) |
 | 185 | **MagicPixel** | Hosted MCP server for AI pixel art: generate sprites, variants and new facing directions, browse and buy community marketplace assets, and manage your MagicPixel library. Remote endpoint https://magicpixel.art/mcp with OAuth sign-in | [Website](https://magicpixel.art/guides/connect) |
+| 186 | **Kuro** | Hosted MCP server for creating AI images, video clips, voice-overs, music and editable storyboard films | [GitHub](https://github.com/meetkuro/kuro-mcp) |
 
 
 
