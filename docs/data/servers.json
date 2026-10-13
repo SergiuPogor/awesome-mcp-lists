@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 356,
+    "servers": 357,
     "clients": 21,
     "toolkits": 44,
     "docker": 180,
-    "total": 601
+    "total": 602
   },
   "groups": {
     "servers": [
@@ -1237,6 +1237,12 @@
         "name": "Quantral",
         "description": "Stock sentiment for US and Korean stocks: 0-100 signal scores from tracked X, Reddit, Substack and Naver accounts plus Congress trades and insider buys, the posts behind each score, monthly recaps, and rule-based model portfolios tracked against the S&P 500. Hosted Streamable HTTP MCP `https://app.quantral.com/api/mcp`, 8 read-only tools, OAuth; Quantral subscription required. Registry `com.quantral/sentiment`",
         "url": "https://quantral.com/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "AgentoolRank",
+        "description": "Hosted Streamable HTTP MCP (`https://agentoolrank.com/api/mcp`) for searching open-source AI agent tools and MCP servers ranked by live GitHub activity, refreshed daily, with alternatives for any tool; read-only search needs no API key",
+        "url": "https://github.com/agent-gigmole/agentoolrank-mcp",
         "category": "Integrations & APIs"
       },
       {
