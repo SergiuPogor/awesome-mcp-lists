@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 370,
+    "servers": 371,
     "clients": 21,
     "toolkits": 44,
     "docker": 188,
-    "total": 623
+    "total": 624
   },
   "groups": {
     "servers": [
@@ -1321,6 +1321,12 @@
         "name": "Floatout",
         "description": "Floatout's public, read-only MCP server. Look up Floatout plans and pricing, read Floatout guides on launching a Hyperliquid perps and prediction market DEX, and query Floatout's Hyperliquid builder-fee research. Hosted Streamable HTTP at https://floatout.xyz/api/mcp, no auth",
         "url": "https://floatout.xyz",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Soundcheck Instant Quotes",
+        "description": "Live-event quoting for businesses that sell live event services (hosted public MCP, no auth)",
+        "url": "https://github.com/soundchecklive/soundcheck-plugin",
         "category": "Integrations & APIs"
       },
       {
