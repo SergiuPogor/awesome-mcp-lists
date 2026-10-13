@@ -1,17 +1,29 @@
-# A Curated List of containerised MCP Servers, Clients and Toolkits
+# Awesome MCP Lists [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/collabnix/awesome-mcp-lists.svg)](https://github.com/collabnix/awesome-mcp-lists/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/collabnix/awesome-mcp-lists.svg)](https://github.com/collabnix/awesome-mcp-lists/network)
-[![GitHub issues](https://img.shields.io/github/issues/collabnix/awesome-mcp-lists.svg)](https://github.com/collabnix/awesome-mcp-lists/issues)
-[![GitHub license](https://img.shields.io/github/license/collabnix/awesome-mcp-lists.svg)](https://github.com/collabnix/awesome-mcp-lists/blob/main/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/collabnix/awesome-mcp-lists/pulls)
-[![Docker MCP](https://img.shields.io/badge/Docker-MCP-blue)](https://www.docker.com/)
+> A curated, community-driven list of **containerised MCP servers, clients, and toolkits** — the building blocks that connect AI assistants to the tools, data, and services you already use.
 
-A comprehensive curated list of containerised MCP Servers, Clients and toolkits.
+[![GitHub stars](https://img.shields.io/github/stars/collabnix/awesome-mcp-lists.svg?style=flat-square)](https://github.com/collabnix/awesome-mcp-lists/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/collabnix/awesome-mcp-lists.svg?style=flat-square)](https://github.com/collabnix/awesome-mcp-lists/network)
+[![GitHub contributors](https://img.shields.io/github/contributors/collabnix/awesome-mcp-lists.svg?style=flat-square)](https://github.com/collabnix/awesome-mcp-lists/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/collabnix/awesome-mcp-lists.svg?style=flat-square)](https://github.com/collabnix/awesome-mcp-lists/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/collabnix/awesome-mcp-lists.svg?style=flat-square)](https://github.com/collabnix/awesome-mcp-lists/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![License: CC0](https://img.shields.io/badge/license-CC0-blue.svg?style=flat-square)](LICENSE)
+[![Docker MCP](https://img.shields.io/badge/Docker-MCP-2496ED.svg?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+
+<!-- STATS:START -->
+**📦 510+ listed projects** &nbsp;·&nbsp; **🗂️ 20+ categories** &nbsp;·&nbsp; **🐳 100+ Docker MCP Toolkit servers** &nbsp;·&nbsp; **🤝 community-curated**
+<!-- STATS:END -->
+
+The **[Model Context Protocol (MCP)](https://modelcontextprotocol.io)** is an open standard that lets AI assistants securely connect to external tools and data sources. This list collects the best **servers** (which expose tools and data), **clients** (apps that connect to them), and **toolkits** (SDKs, frameworks, and utilities for building your own).
+
+> 🔎 **Prefer to browse and search visually?** Try the web version → **[collabnix.github.io/awesome-mcp-lists](https://collabnix.github.io/awesome-mcp-lists/)**
+>
+> ➕ **Want to add a project?** It takes one line — see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ## Table of Contents
-- [MCP Servers](#mcp-servers)
+
+- [🧩 MCP Servers](#mcp-servers)
   - [DevOps & Infrastructure](#devops--infrastructure)
   - [Database & Storage](#database--storage)
   - [Web & Content](#web--content)
@@ -22,23 +34,32 @@ A comprehensive curated list of containerised MCP Servers, Clients and toolkits.
   - [Communication](#communication)
   - [Knowledge Management](#knowledge-management)
   - [Multimedia & Design](#multimedia--design)
-- [MCP Clients](#mcp-clients)
+- [💻 MCP Clients](#mcp-clients)
   - [Desktop Applications](#desktop-applications)
   - [Mobile Applications](#mobile-applications)
   - [IDE Extensions](#ide-extensions)
   - [Command Line Tools](#command-line-tools)
   - [Web Applications](#web-applications)
-- [MCP Toolkits](#mcp-toolkits)
+- [🧰 MCP Toolkits](#mcp-toolkits)
   - [SDKs & Libraries](#sdks--libraries)
   - [Frameworks](#frameworks)
   - [Testing Tools](#testing-tools)
   - [Utilities](#utilities)
   - [Hosting Solutions](#hosting-solutions)
   - [Templates](#templates)
+- [🤖 Agent Development Frameworks](#agent-development-frameworks)
+- [🧬 Language-Specific SDKs](#language-specific-sdks)
+- [🐳 Docker MCP Toolkit](#docker-mcp-toolkit)
+- [🤝 Contributing](#contributing)
+- [📄 License](#license)
 
-## Containerised MCP Servers
-- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
-- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
+## MCP Servers
+
+MCP servers expose tools, data, and capabilities to AI assistants. Browse by category below.
+
+> **⭐ Featured**
+> - [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
+> - [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ### DevOps & Infrastructure
 
@@ -98,14 +119,14 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 50 | **matlab-mcp-server** | Run MATLAB® using AI applications with the official MATLAB MCP Server from MathWorks®. This MCP server for MATLAB supports a wide range of coding agents like Claude Code® and Visual Studio® Code. | [GitHub](https://github.com/matlab/matlab-mcp-server) |
 | 51 | **cve-mcp-server** | Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more. | [GitHub](https://github.com/mukul975/cve-mcp-server) |
 | 52 | **Cohesivity** | cohesivity.ai offers free agent native backend services. Anonymous account (no-signup) to get started through MCP or API. Hosting, postgres, email, storage, containers, LLMs, voice and third-party APIs. Includes free tiers and 5 USD/mo in AI and Search credits. Top-ups through x402. | [GitHub](https://github.com/cohesivity-org/cohesivity-plugin) |
-| 53 | **docker-android** | Android in docker solution with noVNC supported, video recording, mcp server and AI-agent | TBD | [GitHub](https://github.com/budtmo/docker-android) |
-| 54 | **drawio-skill** | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. | TBD | [GitHub](https://github.com/Agents365-ai/drawio-skill) |
-| 55 | **Graft** | Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase. | TBD | [GitHub](https://github.com/trailhq/Graft) |
-| 56 | **mcp-for-blender** | Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation. | TBD | [GitHub](https://github.com/ahujasid/mcp-for-blender) |
-| 57 | **tyk** | Open Source API and AI Gateway supporting REST, GraphQL, TCP, gRPC and MCP (Model Context Protocol) | TBD | [GitHub](https://github.com/TykTechnologies/tyk) |
-| 58 | **zotero-mcp** | Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more. | TBD | [GitHub](https://github.com/54yyyu/zotero-mcp) |
-| 59 | **wslmanager** | GUI for the Windows Subsystem for Linux — and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH. | TBD | [GitHub](https://github.com/bostrot/wslmanager) |
-| 60 | **atlassian-mcp-server** | Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens. | TBD | [GitHub](https://github.com/atlassian/atlassian-mcp-server) |
+| 53 | **docker-android** | Android in docker solution with noVNC supported, video recording, mcp server and AI-agent | [GitHub](https://github.com/budtmo/docker-android) |
+| 54 | **drawio-skill** | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. | [GitHub](https://github.com/Agents365-ai/drawio-skill) |
+| 55 | **Graft** | Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase. | [GitHub](https://github.com/trailhq/Graft) |
+| 56 | **mcp-for-blender** | Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation. | [GitHub](https://github.com/ahujasid/mcp-for-blender) |
+| 57 | **tyk** | Open Source API and AI Gateway supporting REST, GraphQL, TCP, gRPC and MCP (Model Context Protocol) | [GitHub](https://github.com/TykTechnologies/tyk) |
+| 58 | **zotero-mcp** | Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more. | [GitHub](https://github.com/54yyyu/zotero-mcp) |
+| 59 | **wslmanager** | GUI for the Windows Subsystem for Linux — and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH. | [GitHub](https://github.com/bostrot/wslmanager) |
+| 60 | **atlassian-mcp-server** | Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens. | [GitHub](https://github.com/atlassian/atlassian-mcp-server) |
 | 61 | **SolidPing** | Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio. | [GitHub](https://github.com/fclairamb/solidping) |
 
 ### Database & Storage
@@ -140,7 +161,7 @@ MCP servers for accessing and managing databases and storage solutions.
 | 24 | **prest** | PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new, MCP server | [GitHub](https://github.com/prest/prest) |
 | 25 | **GoNavi** | High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. &#124; 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。 | [GitHub](https://github.com/Syngnat/GoNavi) |
 | 26 | **x64dbg-mcp-server** | x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros | [GitHub](https://github.com/duty1g/x64dbg-mcp-server) |
-| 27 | **Douyin_TikTok_Download_API** | 🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。&#124; Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.  | TBD | [GitHub](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) |
+| 27 | **Douyin_TikTok_Download_API** | 🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。&#124; Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.  | [GitHub](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) |
 | 28 | **Prisma MCP Server** | Official hosted MCP server (Streamable HTTP, sign in with a Prisma account) for managing Prisma Postgres databases, running SQL, and managing Prisma Compute deployments and Object Storage | [Docs](https://www.prisma.io/docs/ai/tools/mcp-server) |
 
 ### Web & Content
@@ -189,10 +210,10 @@ MCP servers for web search, content access, and web automation.
 | 38 | **anysearch-mcp-server** | Unified real-time search MCP server supporting general web search, vertical domain search, parallel batch search, and full-page URL content extraction. | [GitHub](https://github.com/anysearch-ai/anysearch-mcp-server) |
 | 39 | **Statsnet** | Background check any company in the world: registration, executives, courts and finances. Remote MCP `https://statsnet.co/mcp` · Registry `io.github.usenetstate/statsnet` | [GitHub](https://github.com/usenetstate/statsnet-mcp) |
 | 40 | **QuanticData MCP** | Hosted Streamable HTTP MCP for web search, page scraping to Markdown, crawl and URL map, and ready-made site collectors; OAuth 2.1 or API key. Remote MCP `https://api.quanticdata.io/mcp` · Registry `io.github.quantumproxies/quanticdata-mcp`; includes a Dockerfile | [GitHub](https://github.com/quantumproxies/quanticdata-mcp-server) |
-| 41 | **waha** | WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! Multiple engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go), WPP (browser) | TBD | [GitHub](https://github.com/devlikeapro/waha) |
-| 42 | **google-ads-meta-ads-mcp** | Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + GA4 + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: 250+ tools, OAuth login, no API keys, approval-gated writes, free. By Ryze AI. | TBD | [GitHub](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) |
-| 43 | **vexa** | Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS. | TBD | [GitHub](https://github.com/Vexa-ai/vexa) |
-| 44 | **invisible_playwright_mcp** | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use. | TBD | [GitHub](https://github.com/feder-cr/invisible_playwright_mcp) |
+| 41 | **waha** | WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! Multiple engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go), WPP (browser) | [GitHub](https://github.com/devlikeapro/waha) |
+| 42 | **google-ads-meta-ads-mcp** | Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + GA4 + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: 250+ tools, OAuth login, no API keys, approval-gated writes, free. By Ryze AI. | [GitHub](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) |
+| 43 | **vexa** | Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS. | [GitHub](https://github.com/Vexa-ai/vexa) |
+| 44 | **invisible_playwright_mcp** | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use. | [GitHub](https://github.com/feder-cr/invisible_playwright_mcp) |
 | 45 | **Apple Docs 2.0 MCP** | Apple developer documentation, Human Interface Guidelines and 1,700 WWDC sessions (2014–2026) with code for coding agents; search with developer.apple.com's own results and an offline index of 336,629 pages. Local stdio via `npx -y apple-docs-2.0-mcp` · Registry `io.github.mishafyi/apple-docs-2.0-mcp` | [GitHub](https://github.com/mishafyi/Apple-Docs-2.0-MCP) |
 
 ### Integrations & APIs
@@ -237,7 +258,7 @@ MCP servers for accessing external services and APIs.
 | 34 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
 | 35 | **Dwellir** | Hosted Streamable HTTP MCP for read-only blockchain RPC queries across 150+ networks, Hyperliquid market data, short WebSocket samples, and Dwellir usage and API key management; OAuth, no API key in client config | [GitHub](https://github.com/dwellir-public/dwellir-skill) |
 | 36 | **Datacircle** | Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Hosted Streamable HTTP MCP; OAuth 2.1 or API key. Remote MCP `https://api.datacircle.dev/mcp` · Registry `dev.datacircle/datacircle` | [Docs](https://docs.datacircle.dev/mcp-server) |
-| 37 | **concat** | ⭐ Concat: The truly free, and open-source cross-platform CapCut replacement. Supports MCPs & API. | TBD | [GitHub](https://github.com/jub0t/concat) |
+| 37 | **concat** | ⭐ Concat: The truly free, and open-source cross-platform CapCut replacement. Supports MCPs & API. | [GitHub](https://github.com/jub0t/concat) |
 | 38 | **looot** | Hosted Streamable HTTP MCP with one API key and prepaid balance for about 2,500 data endpoints from 90+ providers: work email, phone, company enrichment, Google SERP, web pages; OAuth 2.1 or bearer key, pay per call | [GitHub](https://github.com/loootai/looot-mcp) |
 | 39 | **Plazmi** | Homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, send your human a postcard. Hosted Streamable HTTP MCP, no auth. Remote MCP `https://plazmi.gg/mcp` · Registry `gg.plazmi/plazmi` | [Docs](https://plazmi.gg/SKILL.md) |
 | 40 | **Invokely** | Hosted Streamable HTTP MCP for official statistics across the U.S., EU, Spain, and World Bank coverage. Search indicators and places, retrieve values and time series, compare places, and rank regions. Every value includes a period, unit, and source citation. Main endpoint: `https://invokely.ai/mcp` (OAuth or API key); anonymous trial: `https://invokely.ai/mcp/trial` (25 calls/day/IP). | [Docs](https://invokely.ai/docs/) · [Official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.estevecastells%2Finvokely) |
@@ -340,9 +361,111 @@ MCP servers for AI and machine learning capabilities.
 | 71 | **ableton-mcp** | 🎵 Control Ableton Live with Claude AI — create tracks, arrange clips & compose music via MCP | [GitHub](https://github.com/ahujasid/ableton-mcp) |
 | 72 | **nitrostack** | The full-stack TypeScript framework to build, test, and deploy production-ready MCP servers and AI-native apps. | [GitHub](https://github.com/nitrocloudofficial/nitrostack) |
 | 73 | **open-codex-computer-use** | 👾 Open Computer Use – Open-Source Alternative to Codex Computer Use | [GitHub](https://github.com/iFurySt/open-codex-computer-use) |
-| 74 | **reactive-resume** | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | TBD | [GitHub](https://github.com/reactive-resume/reactive-resume) |
-| 75 | **editor** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents. | TBD | [GitHub](https://github.com/pascalorg/editor) |
-| 76 | **rea** | Reverse engineer anything with agents, from app behavior down to native binaries. | TBD | [GitHub](https://github.com/morluto/rea) |
+| 74 | **reactive-resume** | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | [GitHub](https://github.com/reactive-resume/reactive-resume) |
+| 75 | **editor** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents. | [GitHub](https://github.com/pascalorg/editor) |
+| 76 | **rea** | Reverse engineer anything with agents, from app behavior down to native binaries. | [GitHub](https://github.com/morluto/rea) |
+
+### Security & Authentication
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 1 | sentry | Monitor application errors and performance | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md) |
+| 2 | cyreslab-ai-shodan | Search for internet-connected devices using Shodan | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/cyreslab-ai-shodan.md) |
+| 3 | descope | Implement secure user authentication and authorization | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/descope.md) |
+| 4 | armor-crypto | Secure encryption and decryption tools for sensitive data | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/armor-crypto.md) |
+| 5 | **VirusTotal** | File and URL security analysis | [GitHub](https://github.com/skydeckai/virustotal-mcp-server) |
+| 6 | risken | Security risk management platform | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/risken.md) |
+| 7 | **Agent Module** | EU AI Act compliance logic for autonomous agents — risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP | [GitHub](https://github.com/AgentModule/mcp) |
+| 8 | **damn-vulnerable-MCP-server** | Intentionally vulnerable MCP server for security research, training, and CTF exercises | [GitHub](https://github.com/harishsg993010/damn-vulnerable-MCP-server) |
+| 9 | **operant-mcp** | Open-source MCP server with 51 security testing tools for pentesting, vulnerability scanning, and security auditing | [GitHub](https://github.com/operantlabs/operant-mcp) |
+| 10 | **mcp-for-beginners** | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. | [GitHub](https://github.com/microsoft/mcp-for-beginners) |
+| 11 | **fastapi_mcp** | Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth! | [GitHub](https://github.com/tadata-org/fastapi_mcp) |
+| 12 | **klavis** | Klavis AI:  MCP integration platforms that let AI agents use tools reliably at any scale | [GitHub](https://github.com/Klavis-AI/klavis) |
+| 13 | **osaurus** | Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source. | [GitHub](https://github.com/osaurus-ai/osaurus) |
+| 14 | **ENScan_GO** | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入 | [GitHub](https://github.com/wgpsec/ENScan_GO) |
+| 15 | **Gmail-MCP-Server** | A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop with auto authentication support. This server enables AI assistants to manage Gmail through natural language interactions. | [GitHub](https://github.com/GongRzhe/Gmail-MCP-Server) |
+| 16 | **open-connector** | Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI. | [GitHub](https://github.com/oomol-lab/open-connector) |
+| 17 | **tradingview-mcp** | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | [GitHub](https://github.com/atilaahmettaner/tradingview-mcp) |
+| 18 | **codex-with-chatgpt** | ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. | [GitHub](https://github.com/XiaoDuoYa/codex-with-chatgpt) |
+
+### Development Tools
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 1 | filesystem | Interact with file system and perform file operations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/filesystem.md) |
+| 2 | e2b | Cloud-based development environment | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/e2b.md) |
+| 3 | octomind | Automated testing and quality assurance platform | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/octomind.md) |
+| 4 | openapi-schema | API definition and documentation standard | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md) |
+| 5 | desktop-commander | Control desktop applications and perform system operations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md) |
+| 6 | **Roundtable** | **Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows** | [GitHub](https://github.com/askbudi/roundtable) |
+| 7 | **Asynkor** | Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf | [GitHub](https://github.com/asynkor/asynkor) |
+| 8 | **n8n-mcp** | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you  | [GitHub](https://github.com/czlonkowski/n8n-mcp) |
+| 9 | **xiaohongshu-mcp** | MCP for xiaohongshu.com | [GitHub](https://github.com/xpzouying/xiaohongshu-mcp) |
+| 10 | **Awesome-MCP-ZH** | MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients | [GitHub](https://github.com/yzfly/Awesome-MCP-ZH) |
+| 11 | **XcodeBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | [GitHub](https://github.com/getsentry/XcodeBuildMCP) |
+| 12 | **fast-agent** | Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support | [GitHub](https://github.com/evalstate/fast-agent) |
+| 13 | **memory-bank-mcp** | A Model Context Protocol (MCP) server implementation for remote memory bank management, inspired by Cline Memory Bank. | [GitHub](https://github.com/alioshr/memory-bank-mcp) |
+| 14 | **awesome-mcp-servers** | A curated list of Model Context Protocol (MCP) servers | [GitHub](https://github.com/wong2/awesome-mcp-servers) |
+| 15 | **Office-PowerPoint-MCP-Server** | A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol. | [GitHub](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) |
+| 16 | **mcp-server-guide** | A guide on how to use the Figma MCP server | [GitHub](https://github.com/figma/mcp-server-guide) |
+| 17 | **drawio-mcp-server** | Draw.io Model Context Protocol (MCP) Server | [GitHub](https://github.com/lgazo/drawio-mcp-server) |
+| 18 | **awesome-remote-mcp-servers** | Remote MCP Servers | [GitHub](https://github.com/jaw9c/awesome-remote-mcp-servers) |
+| 19 | **excel-mcp-server** | A Model Context Protocol (MCP) server that reads and writes MS Excel data | [GitHub](https://github.com/negokaz/excel-mcp-server) |
+| 20 | **server** | Core PHP implementation for the Model Context Protocol (MCP) server | [GitHub](https://github.com/php-mcp/server) |
+| 21 | **gadgethumans-api-hub-mcp** | 334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required. | [GitHub](https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp) |
+| 22 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/PortSwigger/mcp-server) |
+| 23 | **mcp-office-suite** | One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root. | [GitHub](https://github.com/theluckystrike/mcp-office-suite) |
+| 24 | **MobileBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
+| 25 | **OtaKit** | Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert | [Website](https://otakit.app) · [GitHub](https://github.com/OtaKit/otakit) |
+| 26 | **NoMac** | Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config | [Website](https://nomac.app) |
+
+### Communication
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 1 | mcp-discord | Discord messaging and community management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md) |
+| 2 | line | Messaging application and platform integration | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/line.md) |
+| 3 | tweetbinder | Twitter/X analytics and social media insights | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tweetbinder.md) |
+| 4 | **supabase-mcp-server** | Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more. | [GitHub](https://github.com/alexander-zuev/supabase-mcp-server) |
+| 5 | **mcp-server-chatsum** | Query and Summarize your chat messages. | [GitHub](https://github.com/chatmcp/mcp-server-chatsum) |
+| 6 | **BulkPublish** | Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package. | [Docs](https://app.bulkpublish.com/docs) |
+| 7 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
+| 8 | **HeyReagent** | Read your own LinkedIn inbox, send messages and connection invitations, and search people through a hosted Streamable HTTP MCP server with OAuth; each kind of action has a daily limit per account. | [GitHub](https://github.com/linglistack/heyreagent-linkedin-mcp) |
+| 9 | **telegram-archive-mcp** | MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`. | [GitHub](https://github.com/GeiserX/telegram-archive-mcp) |
+
+### Knowledge Management
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 1 | obsidian | Work with Obsidian notes and knowledge management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/obsidian.md) |
+| 2 | fibery | Connected work platform for knowledge management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fibery.md) |
+| 3 | context7 | Provide contextual information for enhanced AI conversations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md) |
+| 4 | atlas-docs | Access MongoDB Atlas documentation and best practices | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md) |
+| 5 | **knowledge-rag** | Local RAG for Claude Code via MCP (hybrid search + reranking + markdown-aware chunking, zero external servers). PyPI: `pip install knowledge-rag` (Lyon, MIT). | [GitHub](https://github.com/lyonzin/knowledge-rag) |
+| 6 | **screenpipe** | 24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama. | [GitHub](https://github.com/screenpipe/screenpipe) |
+| 7 | **Hexis** | Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access. | [GitHub](https://github.com/Bevel-Software/Hexis) |
+| 8 | **mnemoverse/mcp-memory-server** | Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped. | [GitHub](https://github.com/mnemoverse/mcp-memory-server) |
+| 9 | **Continuity by Ouroboros Apps** | Story continuity for fiction writers: a series bible and novel memory that keeps characters, places, timelines, and plot facts consistent across chats. Hosted Streamable HTTP MCP `https://continuitywriter.com/mcp` with OAuth; includes a Dockerfile. [Site](https://continuitywriter.com) · [Ouroboros Apps](https://ouroborosapps.com) | [GitHub](https://github.com/LAHutchins91/continuity-mcp) |
+
+### Multimedia & Design
+
+| # | MCP Server | Description | Link |
+|---|------------|-------------|------|
+| 1 | gyazo | Screenshot capturing and sharing service | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md) |
+| 2 | handwriting-ocr | Optical character recognition for handwritten text | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md) |
+| 3 | webflow | Visual website design and content management system | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md) |
+| 4 | youtube_transcript | YouTube video transcript extraction | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md) |
+| 5 | speech-ai | Speech AI with pronunciation assessment, text-to-speech, and speech-to-text | [GitHub](https://github.com/fasuizu-br/speech-ai-examples) |
+| 6 | **Prompt to Asset** | MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models | [GitHub](https://github.com/MohamedAbdallah-14/prompt-to-asset) |
+| 7 | **OrkasVideoStudio** | Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly | [GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
+| 8 | **AI Applyd** | ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system | [GitHub](https://github.com/whateverneveranywhere/aiapplyd-mcp) |
+| 9 | **YouTube Transcript MCP** | MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients | [GitHub](https://github.com/ZeroPointRepo/youtube-mcp) |
+| 10 | **Magic Hour** | Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools | [GitHub](https://github.com/magichourhq/magic-hour-mcp) |
+| 11 | **BulkTranscripts** | Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking | [GitHub](https://github.com/pratie/bulktranscripts-mcp) |
+| 12 | **GetYouTubeTranscript** | Hosted MCP server (Streamable HTTP, OAuth or API key) for full YouTube video transcripts, YouTube and in-channel search, channel and playlist video lists, and a channel's latest uploads | [GitHub](https://github.com/tubeagentkit/youtube-mcp) |
+| 13 | **Hypnothera** | Hosted Streamable HTTP MCP for personalized guided hypnosis audio: search a free library of ready-made sessions, create sessions and multi-day journeys from a brief the user approves, and render audio in a chosen voice; OAuth with dynamic client registration | [GitHub](https://github.com/La-Salida/hypnothera-skill) |
+
+
 
 ## MCP Clients
 
@@ -405,7 +528,7 @@ MCP servers for AI and machine learning capabilities.
 | 3 | LiteMCP | TypeScript | A lightweight TypeScript framework for building MCP servers | 600+ | [GitHub](https://github.com/wong2/LiteMCP) |
 | 4 | mcp-framework | TypeScript | Fast and elegant TypeScript framework for building MCP servers | 400+ | [GitHub](https://github.com/QuantGeekDev/mcp-framework) |
 | 5 | mcp-use | Python | Open source Python library to easily connect any LLM to any MCP server | 350+ | [GitHub](https://github.com/astelmach01/mcp-use) |
-| 6 | MCP Fusion | TypeScript | Zero-config framework for building production-ready MCP servers with auto tool discovery, multi-transport (stdio/SSE/HTTP) and Zod validation | [GitHub](https://github.com/vinkius-labs/mcp-fusion) |
+| 6 | MCP Fusion | TypeScript | Zero-config framework for building production-ready MCP servers with auto tool discovery, multi-transport (stdio/SSE/HTTP) and Zod validation | N/A | [GitHub](https://github.com/vinkius-labs/mcp-fusion) |
 
 ### Frameworks
 
@@ -417,29 +540,6 @@ MCP servers for AI and machine learning capabilities.
 | 4 | [Upsonic/gpt-computer-assistant](https://github.com/Upsonic/gpt-computer-assistant) | Python | Framework for AI agents |
 | 5 | [p-funk/FEGIS](https://github.com/p-funk/FEGIS) | Python | Interactive agent framework |
 
-
-## Agent Development Frameworks
-
-| # | Framework Name | Language | Description | Link |
-|---|----------------|----------|-------------|------|
-| 1 | mcp-agent | TypeScript | Build effective agents with MCP servers using simple, composable patterns | [GitHub](https://github.com/lastmile-ai/mcp-agent) |
-| 2 | gpt-computer-assistant | Python | Framework to build vertical AI agent with MCP integration | [GitHub](https://github.com/Upsonic/gpt-computer-assistant) |
-| 3 | FEGIS | Python | A semantic programming framework for LLMs with MCP support | [GitHub](https://github.com/p-funk/FEGIS) |
-| 4 | langchain-mcp | Python | LangChain integration for MCP | [GitHub](https://github.com/langchain-ai/langchain-mcp) |
-| 5 | solana-agent-kit | TypeScript | Solana MCP SDK for blockchain agent development | [GitHub](https://github.com/sendaifun/solana-agent-kit) |
-| 6 | EGC | TypeScript | Persistent cross-session memory MCP server for 13+ AI coding tools. SQLite-backed state survives context resets. | [GitHub](https://github.com/Fmarzochi/EGC) |
-
-## Language-Specific SDKs
-
-| # | SDK Name | Language | Description | Link |
-|---|----------|----------|-------------|------|
-| 1 | spring-ai-mcp | Java | Java SDK and Spring Framework integration for building MCP servers | [GitHub](https://github.com/spring-projects-experimental/spring-ai-mcp) |
-| 2 | mark3labs/mcp-go | Go | Golang SDK for building MCP Servers and Clients | [GitHub](https://github.com/mark3labs/mcp-go) |
-| 3 | foxy-contexts | Go | Golang library to write MCP Servers declaratively with testing included | [GitHub](https://github.com/strowk/foxy-contexts) |
-| 4 | mcp-rs-template | Rust | MCP CLI server template for Rust | [GitHub](https://github.com/linux-china/mcp-rs-template) |
-| 5 | ModelContextProtocol.NET | C# | A C# SDK for building MCP servers on .NET | [GitHub](https://github.com/salty-flower/ModelContextProtocol.NET) |
-| 6 | http4k MCP SDK | Kotlin | Functional, testable Kotlin SDK for MCP | [GitHub](https://github.com/http4k/http4k) |
-| 7 | mcpc | C | Modern C SDK for building MCP servers/clients | [GitHub](https://github.com/micl2e2/mcpc) |
 
 ### Testing Tools
 
@@ -481,11 +581,34 @@ MCP servers for AI and machine learning capabilities.
 | 2 | dart-mcp-server-template | Dart | Template for Dart MCP servers |
 | 3 | rails-mcp-startup-boilerplate | Ruby | Rails template for paid MCP servers |
 
+## Agent Development Frameworks
+
+| # | Framework Name | Language | Description | Link |
+|---|----------------|----------|-------------|------|
+| 1 | mcp-agent | TypeScript | Build effective agents with MCP servers using simple, composable patterns | [GitHub](https://github.com/lastmile-ai/mcp-agent) |
+| 2 | gpt-computer-assistant | Python | Framework to build vertical AI agent with MCP integration | [GitHub](https://github.com/Upsonic/gpt-computer-assistant) |
+| 3 | FEGIS | Python | A semantic programming framework for LLMs with MCP support | [GitHub](https://github.com/p-funk/FEGIS) |
+| 4 | langchain-mcp | Python | LangChain integration for MCP | [GitHub](https://github.com/langchain-ai/langchain-mcp) |
+| 5 | solana-agent-kit | TypeScript | Solana MCP SDK for blockchain agent development | [GitHub](https://github.com/sendaifun/solana-agent-kit) |
+| 6 | EGC | TypeScript | Persistent cross-session memory MCP server for 13+ AI coding tools. SQLite-backed state survives context resets. | [GitHub](https://github.com/Fmarzochi/EGC) |
+
+## Language-Specific SDKs
+
+| # | SDK Name | Language | Description | Link |
+|---|----------|----------|-------------|------|
+| 1 | spring-ai-mcp | Java | Java SDK and Spring Framework integration for building MCP servers | [GitHub](https://github.com/spring-projects-experimental/spring-ai-mcp) |
+| 2 | mark3labs/mcp-go | Go | Golang SDK for building MCP Servers and Clients | [GitHub](https://github.com/mark3labs/mcp-go) |
+| 3 | foxy-contexts | Go | Golang library to write MCP Servers declaratively with testing included | [GitHub](https://github.com/strowk/foxy-contexts) |
+| 4 | mcp-rs-template | Rust | MCP CLI server template for Rust | [GitHub](https://github.com/linux-china/mcp-rs-template) |
+| 5 | ModelContextProtocol.NET | C# | A C# SDK for building MCP servers on .NET | [GitHub](https://github.com/salty-flower/ModelContextProtocol.NET) |
+| 6 | http4k MCP SDK | Kotlin | Functional, testable Kotlin SDK for MCP | [GitHub](https://github.com/http4k/http4k) |
+| 7 | mcpc | C | Modern C SDK for building MCP servers/clients | [GitHub](https://github.com/micl2e2/mcpc) |
+
 ## Docker MCP Toolkit
 
 Docker provides a comprehensive MCP Toolkit with over 100 pre-built MCP servers that are ready to use with Claude and other MCP clients.
 
-There are currently 110 MCP servers available:
+A representative selection is listed below:
 
 | # | MCP Server | Description | Link |
 |---|------------|-------------|------|
@@ -599,108 +722,6 @@ There are currently 110 MCP servers available:
 | 108 | kubernetes | Orchestrate and manage containerized applications | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kubernetes.md) |
 | 109 | postgresql | Interact with PostgreSQL databases | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgresql.md) |
 
-### Security & Authentication
-
-| # | MCP Server | Description | Link |
-|---|------------|-------------|------|
-| 1 | sentry | Monitor application errors and performance | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md) |
-| 2 | cyreslab-ai-shodan | Search for internet-connected devices using Shodan | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/cyreslab-ai-shodan.md) |
-| 3 | descope | Implement secure user authentication and authorization | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/descope.md) |
-| 4 | armor-crypto | Secure encryption and decryption tools for sensitive data | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/armor-crypto.md) |
-| 5 | **VirusTotal** | File and URL security analysis | [GitHub](https://github.com/skydeckai/virustotal-mcp-server) |
-| 6 | risken | Security risk management platform | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/risken.md) |
-| 7 | **Agent Module** | EU AI Act compliance logic for autonomous agents — risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP | [GitHub](https://github.com/AgentModule/mcp) |
-| 8 | **damn-vulnerable-MCP-server** | Intentionally vulnerable MCP server for security research, training, and CTF exercises | [GitHub](https://github.com/harishsg993010/damn-vulnerable-MCP-server) |
-| 9 | **operant-mcp** | Open-source MCP server with 51 security testing tools for pentesting, vulnerability scanning, and security auditing | [GitHub](https://github.com/operantlabs/operant-mcp) |
-| 10 | **mcp-for-beginners** | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. | [GitHub](https://github.com/microsoft/mcp-for-beginners) |
-| 11 | **fastapi_mcp** | Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth! | [GitHub](https://github.com/tadata-org/fastapi_mcp) |
-| 12 | **klavis** | Klavis AI:  MCP integration platforms that let AI agents use tools reliably at any scale | [GitHub](https://github.com/Klavis-AI/klavis) |
-| 13 | **osaurus** | Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source. | [GitHub](https://github.com/osaurus-ai/osaurus) |
-| 14 | **ENScan_GO** | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入 | [GitHub](https://github.com/wgpsec/ENScan_GO) |
-| 15 | **Gmail-MCP-Server** | A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop with auto authentication support. This server enables AI assistants to manage Gmail through natural language interactions. | [GitHub](https://github.com/GongRzhe/Gmail-MCP-Server) |
-| 16 | **open-connector** | Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI. | [GitHub](https://github.com/oomol-lab/open-connector) |
-| 17 | **tradingview-mcp** | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | [GitHub](https://github.com/atilaahmettaner/tradingview-mcp) |
-| 18 | **codex-with-chatgpt** | ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. | TBD | [GitHub](https://github.com/XiaoDuoYa/codex-with-chatgpt) |
-
-### Development Tools
-
-| # | MCP Server | Description | Link |
-|---|------------|-------------|------|
-| 1 | filesystem | Interact with file system and perform file operations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/filesystem.md) |
-| 2 | e2b | Cloud-based development environment | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/e2b.md) |
-| 3 | octomind | Automated testing and quality assurance platform | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/octomind.md) |
-| 4 | openapi-schema | API definition and documentation standard | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md) |
-| 5 | desktop-commander | Control desktop applications and perform system operations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md) |
-| 6 | **Roundtable** | **Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows** | [GitHub](https://github.com/askbudi/roundtable) |
-| 7 | **Asynkor** | Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf | [GitHub](https://github.com/asynkor/asynkor) |
-| 8 | **n8n-mcp** | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you  | [GitHub](https://github.com/czlonkowski/n8n-mcp) |
-| 9 | **xiaohongshu-mcp** | MCP for xiaohongshu.com | [GitHub](https://github.com/xpzouying/xiaohongshu-mcp) |
-| 10 | **Awesome-MCP-ZH** | MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients | [GitHub](https://github.com/yzfly/Awesome-MCP-ZH) |
-| 11 | **XcodeBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | [GitHub](https://github.com/getsentry/XcodeBuildMCP) |
-| 12 | **fast-agent** | Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support | [GitHub](https://github.com/evalstate/fast-agent) |
-| 13 | **memory-bank-mcp** | A Model Context Protocol (MCP) server implementation for remote memory bank management, inspired by Cline Memory Bank. | [GitHub](https://github.com/alioshr/memory-bank-mcp) |
-| 14 | **awesome-mcp-servers** | A curated list of Model Context Protocol (MCP) servers | [GitHub](https://github.com/wong2/awesome-mcp-servers) |
-| 15 | **Office-PowerPoint-MCP-Server** | A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol. | [GitHub](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) |
-| 16 | **mcp-server-guide** | A guide on how to use the Figma MCP server | [GitHub](https://github.com/figma/mcp-server-guide) |
-| 17 | **drawio-mcp-server** | Draw.io Model Context Protocol (MCP) Server | [GitHub](https://github.com/lgazo/drawio-mcp-server) |
-| 18 | **awesome-remote-mcp-servers** | Remote MCP Servers | [GitHub](https://github.com/jaw9c/awesome-remote-mcp-servers) |
-| 19 | **excel-mcp-server** | A Model Context Protocol (MCP) server that reads and writes MS Excel data | [GitHub](https://github.com/negokaz/excel-mcp-server) |
-| 20 | **server** | Core PHP implementation for the Model Context Protocol (MCP) server | [GitHub](https://github.com/php-mcp/server) |
-| 21 | **gadgethumans-api-hub-mcp** | 334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required. | [GitHub](https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp) |
-| 22 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/PortSwigger/mcp-server) |
-| 23 | **mcp-office-suite** | One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root. | [GitHub](https://github.com/theluckystrike/mcp-office-suite) |
-| 24 | **MobileBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | TBD | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
-| 25 | **OtaKit** | Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert | [Website](https://otakit.app) · [GitHub](https://github.com/OtaKit/otakit) |
-| 26 | **NoMac** | Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config | [Website](https://nomac.app) |
-
-### Communication
-
-| # | MCP Server | Description | Link |
-|---|------------|-------------|------|
-| 1 | mcp-discord | Discord messaging and community management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md) |
-| 2 | line | Messaging application and platform integration | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/line.md) |
-| 3 | tweetbinder | Twitter/X analytics and social media insights | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tweetbinder.md) |
-| 4 | **supabase-mcp-server** | Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more. | [GitHub](https://github.com/alexander-zuev/supabase-mcp-server) |
-| 5 | **mcp-server-chatsum** | Query and Summarize your chat messages. | [GitHub](https://github.com/chatmcp/mcp-server-chatsum) |
-| 6 | **BulkPublish** | Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package. | [Docs](https://app.bulkpublish.com/docs) |
-| 7 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
-| 8 | **HeyReagent** | Read your own LinkedIn inbox, send messages and connection invitations, and search people through a hosted Streamable HTTP MCP server with OAuth; each kind of action has a daily limit per account. | [GitHub](https://github.com/linglistack/heyreagent-linkedin-mcp) |
-| 9 | **telegram-archive-mcp** | MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`. | [GitHub](https://github.com/GeiserX/telegram-archive-mcp) |
-
-### Knowledge Management
-
-| # | MCP Server | Description | Link |
-|---|------------|-------------|------|
-| 1 | obsidian | Work with Obsidian notes and knowledge management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/obsidian.md) |
-| 2 | fibery | Connected work platform for knowledge management | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fibery.md) |
-| 3 | context7 | Provide contextual information for enhanced AI conversations | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md) |
-| 4 | atlas-docs | Access MongoDB Atlas documentation and best practices | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md) |
-| 5 | **knowledge-rag** | Local RAG for Claude Code via MCP (hybrid search + reranking + markdown-aware chunking, zero external servers). PyPI: `pip install knowledge-rag` (Lyon, MIT). | [GitHub](https://github.com/lyonzin/knowledge-rag) |
-| 6 | **screenpipe** | 24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama. | [GitHub](https://github.com/screenpipe/screenpipe) |
-| 7 | **Hexis** | Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access. | [GitHub](https://github.com/Bevel-Software/Hexis) |
-| 8 | **mnemoverse/mcp-memory-server** | Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped. | [GitHub](https://github.com/mnemoverse/mcp-memory-server) |
-| 9 | **Continuity by Ouroboros Apps** | Story continuity for fiction writers: a series bible and novel memory that keeps characters, places, timelines, and plot facts consistent across chats. Hosted Streamable HTTP MCP `https://continuitywriter.com/mcp` with OAuth; includes a Dockerfile. [Site](https://continuitywriter.com) · [Ouroboros Apps](https://ouroborosapps.com) | [GitHub](https://github.com/LAHutchins91/continuity-mcp) |
-
-### Multimedia & Design
-
-| # | MCP Server | Description | Link |
-|---|------------|-------------|------|
-| 1 | gyazo | Screenshot capturing and sharing service | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md) |
-| 2 | handwriting-ocr | Optical character recognition for handwritten text | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md) |
-| 3 | webflow | Visual website design and content management system | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md) |
-| 4 | youtube_transcript | YouTube video transcript extraction | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md) |
-| 5 | speech-ai | Speech AI with pronunciation assessment, text-to-speech, and speech-to-text | [GitHub](https://github.com/fasuizu-br/speech-ai-examples) |
-| 6 | **Prompt to Asset** | MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models | [GitHub](https://github.com/MohamedAbdallah-14/prompt-to-asset) |
-| 7 | **OrkasVideoStudio** | Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly | [GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
-| 8 | **AI Applyd** | ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system | [GitHub](https://github.com/whateverneveranywhere/aiapplyd-mcp) |
-| 9 | **YouTube Transcript MCP** | MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients | [GitHub](https://github.com/ZeroPointRepo/youtube-mcp) |
-| 10 | **Magic Hour** | Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools | [GitHub](https://github.com/magichourhq/magic-hour-mcp) |
-| 11 | **BulkTranscripts** | Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking | [GitHub](https://github.com/pratie/bulktranscripts-mcp) |
-| 12 | **GetYouTubeTranscript** | Hosted MCP server (Streamable HTTP, OAuth or API key) for full YouTube video transcripts, YouTube and in-channel search, channel and playlist video lists, and a channel's latest uploads | [GitHub](https://github.com/tubeagentkit/youtube-mcp) |
-| 13 | **Hypnothera** | Hosted Streamable HTTP MCP for personalized guided hypnosis audio: search a free library of ready-made sessions, create sessions and multi-day journeys from a brief the user approves, and render audio in a chosen voice; OAuth with dynamic client registration | [GitHub](https://github.com/La-Salida/hypnothera-skill) |
-
-
-
 ### Installation Steps
 
 1. Open Docker Desktop
@@ -714,7 +735,13 @@ For a complete list of Docker MCP Servers (109+ implementations), visit the [Doc
 
 ## Contributing
 
-We welcome contributions to this awesome list! Please read our [contribution guidelines](CONTRIBUTING.md) before submitting your suggestions.
+Contributions are welcome and **merged quickly**! 🎉 This list is only as good as the community that maintains it.
+
+- ➕ **Add a project** — fork, add one row to the right table, open a PR. Full format guide: **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+- 💡 **Not into Markdown?** [Open a suggestion issue](../../issues/new/choose) and we'll add it for you.
+- 🔗 **Spot a broken link or stale entry?** [Report it here](../../issues/new/choose).
+
+Every entry is reviewed to keep quality high. Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## License
 
