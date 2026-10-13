@@ -847,6 +847,7 @@ A representative selection is listed below:
 | 182 | **VidTL** | Hosted Streamable HTTP MCP for VidTL, a browser video editor: cut and arrange clips, edit by transcript, subtitles, audio cleanup, effects, motion graphics, stock media and export, applied live in the user's open editor session; OAuth with dynamic client registration; VidTL Pro plan required | [Docs](https://vidtl.com/video-editor-mcp-cli/) |
 | 183 | **PodcastsToText** | Hosted MCP server (OAuth) that transcribes Spotify, Apple Podcasts, YouTube and TikTok links or audio files with speaker labels and timestamps, then generates show notes, chapters and translations | [GitHub](https://github.com/marstyl99/podcaststotext-agent) |
 | 184 | **Speak AI** | Hosted MCP server (also on npm as @speakai/mcp-server) for transcribing, analyzing and scoring meetings, sales calls and media in 100+ languages, with search and AI chat over recordings; 107 tools; OAuth or API key; Speak AI account required | [GitHub](https://github.com/speakai/speakai-mcp) |
+| 185 | **MagicPixel** | Hosted MCP server for AI pixel art: generate sprites, variants and new facing directions, browse and buy community marketplace assets, and manage your MagicPixel library. Remote endpoint https://magicpixel.art/mcp with OAuth sign-in | [Website](https://magicpixel.art/guides/connect) |
 
 
 
