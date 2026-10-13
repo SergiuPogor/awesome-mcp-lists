@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 344,
+    "servers": 345,
     "clients": 21,
     "toolkits": 44,
     "docker": 109,
-    "total": 518
+    "total": 519
   },
   "groups": {
     "servers": [
@@ -1165,6 +1165,12 @@
         "name": "Invompt",
         "description": "Hosted remote MCP that turns AI-host work into invoices, quotes, and estimates you review before send; works inside Claude, ChatGPT, or Cursor. Guest access or OAuth at `https://mcp.invompt.com/mcp`",
         "url": "https://github.com/Invompt/invompt-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Productify",
+        "description": "Hosted Streamable HTTP MCP that creates Printify products from chat, with listings written in your shop's voice. Nothing is created, published or edited until you approve a preview; OAuth sign-in, Productify account required. Remote MCP `https://www.useproductify.com/api/mcp`",
+        "url": "https://www.useproductify.com/printify-chatgpt-mcp",
         "category": "Integrations & APIs"
       },
       {
