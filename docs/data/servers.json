@@ -4,8 +4,8 @@
     "servers": 360,
     "clients": 21,
     "toolkits": 44,
-    "docker": 181,
-    "total": 606
+    "docker": 182,
+    "total": 607
   },
   "groups": {
     "servers": [
@@ -3649,6 +3649,12 @@
         "name": "decodx",
         "description": "Hosted Streamable HTTP MCP server (OAuth 2.1) that turns a website or brief into a narrated product video — MP4 plus captions, chapters and a written guide — from Claude and other MCP clients; endpoint `https://api.decodx.ai/mcp`",
         "url": "https://github.com/decodx-ai/claude-plugin",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "VidTL",
+        "description": "Hosted Streamable HTTP MCP for VidTL, a browser video editor: cut and arrange clips, edit by transcript, subtitles, audio cleanup, effects, motion graphics, stock media and export, applied live in the user's open editor session; OAuth with dynamic client registration; VidTL Pro plan required",
+        "url": "https://vidtl.com/video-editor-mcp-cli/",
         "category": "Multimedia & Design"
       }
     ]
