@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 367,
+    "servers": 368,
     "clients": 21,
     "toolkits": 44,
     "docker": 185,
-    "total": 617
+    "total": 618
   },
   "groups": {
     "servers": [
@@ -1303,6 +1303,12 @@
         "name": "UGC VZ",
         "description": "Query a creator directory for the German-speaking market: filter UGC creators by topic or city, open public profiles, and file a brand contact request answered by e-mail. Hosted Streamable HTTP without an account or key; npm stdio bridge in the repo",
         "url": "https://github.com/ugcvz/ugc-vz-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "LogNorm",
+        "description": "Hosted Streamable HTTP MCP server that hands a site's SEO/GEO growth backlog (site audits, fixes, content drafts, AI-visibility tracking) to Claude Code, Codex and Cursor; OAuth 2.1, no API keys; LogNorm account required (free plan). Website",
+        "url": "https://lognorm.com",
         "category": "Integrations & APIs"
       },
       {
