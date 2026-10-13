@@ -4,8 +4,8 @@
     "servers": 368,
     "clients": 21,
     "toolkits": 44,
-    "docker": 187,
-    "total": 620
+    "docker": 188,
+    "total": 621
   },
   "groups": {
     "servers": [
@@ -3733,6 +3733,12 @@
         "name": "Kuro",
         "description": "Hosted MCP server for creating AI images, video clips, voice-overs, music and editable storyboard films",
         "url": "https://github.com/meetkuro/kuro-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "CompressGIF",
+        "description": "Compress GIFs from HTTPS URLs, poll compression jobs, and check credit usage over Streamable HTTP with API key authentication.",
+        "url": "https://compressgif.net/docs",
         "category": "Multimedia & Design"
       }
     ]
