@@ -307,6 +307,7 @@ MCP servers for accessing external services and APIs.
 | 79 | **UGC VZ** | Query a creator directory for the German-speaking market: filter UGC creators by topic or city, open public profiles, and file a brand contact request answered by e-mail. Hosted Streamable HTTP without an account or key; npm stdio bridge in the repo | [GitHub](https://github.com/ugcvz/ugc-vz-mcp) |
 | 80 | **LogNorm** | Hosted Streamable HTTP MCP server that hands a site's SEO/GEO growth backlog (site audits, fixes, content drafts, AI-visibility tracking) to Claude Code, Codex and Cursor; OAuth 2.1, no API keys; LogNorm account required (free plan). [Website](https://lognorm.com) | [GitHub](https://github.com/lognorm/lognorm-mcp) |
 | 81 | **Floatout** | Floatout's public, read-only MCP server. Look up Floatout plans and pricing, read Floatout guides on launching a Hyperliquid perps and prediction market DEX, and query Floatout's Hyperliquid builder-fee research. Hosted Streamable HTTP at https://floatout.xyz/api/mcp, no auth | [Website](https://floatout.xyz) |
+| 82 | **Soundcheck Instant Quotes** | Live-event quoting for businesses that sell live event services (hosted public MCP, no auth) | [GitHub](https://github.com/soundchecklive/soundcheck-plugin) |
 
 ### AI & Machine Learning
 
