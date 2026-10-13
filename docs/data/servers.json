@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 361,
+    "servers": 362,
     "clients": 21,
     "toolkits": 44,
     "docker": 183,
-    "total": 609
+    "total": 610
   },
   "groups": {
     "servers": [
@@ -1267,6 +1267,12 @@
         "name": "crawlgraph",
         "description": "Common Crawl backlink research, competitor gap analysis, and outreach-target discovery with a CrawlGraph API key; build the stdio server from the repository Dockerfile",
         "url": "https://github.com/pucilpet/crawlgraph-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Soxoa MCP portfolio",
+        "description": "Eleven first-party hosted Streamable HTTP MCP connections with scoped workflow skills; OAuth where required.",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio",
         "category": "Integrations & APIs"
       },
       {
