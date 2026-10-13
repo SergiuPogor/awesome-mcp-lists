@@ -1024,9 +1024,9 @@
         "category": "Integrations & APIs"
       },
       {
-        "name": "Influence MCP",
-        "description": "Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required",
-        "url": "https://github.com/influence-so/influence-mcp",
+        "name": "Influence",
+        "description": "Hosted Streamable HTTP MCP for social drafts and review, approved scheduling and publishing, and saved account/post Insights. OAuth or scoped bearer key; paid Influence account with a seven-day, card-required trial. Setup",
+        "url": "https://github.com/influence-so/influence-mcp#connection",
         "category": "Integrations & APIs"
       },
       {
