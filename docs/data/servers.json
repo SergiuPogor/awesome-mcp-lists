@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 365,
+    "servers": 366,
     "clients": 21,
     "toolkits": 44,
     "docker": 185,
-    "total": 615
+    "total": 616
   },
   "groups": {
     "servers": [
@@ -823,6 +823,12 @@
         "name": "Polyblog",
         "description": "Hosted OAuth MCP for multilingual blog articles, topic planning, translation and confirmed publishing changes.",
         "url": "https://github.com/polyblog-io/claude-plugin",
+        "category": "Web & Content"
+      },
+      {
+        "name": "naia GEO Autopilot",
+        "description": "Run GEO analyses, read AI visibility reports, generate content, and manage execution plans with Naia. Hosted Streamable HTTP with OAuth or API key; npm stdio bridge available.",
+        "url": "https://naia.today",
         "category": "Web & Content"
       },
       {
