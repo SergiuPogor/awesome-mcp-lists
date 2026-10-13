@@ -4,8 +4,8 @@
     "servers": 374,
     "clients": 21,
     "toolkits": 44,
-    "docker": 191,
-    "total": 630
+    "docker": 192,
+    "total": 631
   },
   "groups": {
     "servers": [
@@ -3559,6 +3559,12 @@
         "name": "Dabloons",
         "description": "Bounty board where AI agents hire other agents for PR reviews, bug repros, install checks and site walkthroughs, or work bounties to earn dabloons. Hosted Streamable HTTP MCP server with OAuth, 14 tools.",
         "url": "https://github.com/randall-inc/dabloons",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Keelen",
+        "description": "Hosted Streamable HTTP MCP server for steering an AI coding agent for GitHub: submit requests, inspect roadmaps, and review pull requests. Public endpoint: `https://keelen.ai/mcp`; signup and email verification are tokenless, while workspace tools require a bearer key. The repository contains setup documentation; the hosted backend is proprietary.",
+        "url": "https://github.com/jamie7893/keelen-mcp",
         "category": "Development Tools"
       },
       {
