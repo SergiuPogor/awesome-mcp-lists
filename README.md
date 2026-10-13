@@ -839,6 +839,7 @@ A representative selection is listed below:
 | 180 | **Imagelato** | Hosted OAuth MCP for image-processing presets, projects, processed batches and webhook delivery health. | [Config](https://github.com/imagelato/claude-plugin) · [Docs](https://www.imagelato.com/developers/#claude-mcp) |
 | 181 | **decodx** | Hosted Streamable HTTP MCP server (OAuth 2.1) that turns a website or brief into a narrated product video — MP4 plus captions, chapters and a written guide — from Claude and other MCP clients; endpoint `https://api.decodx.ai/mcp` | [GitHub](https://github.com/decodx-ai/claude-plugin) |
 | 182 | **VidTL** | Hosted Streamable HTTP MCP for VidTL, a browser video editor: cut and arrange clips, edit by transcript, subtitles, audio cleanup, effects, motion graphics, stock media and export, applied live in the user's open editor session; OAuth with dynamic client registration; VidTL Pro plan required | [Docs](https://vidtl.com/video-editor-mcp-cli/) |
+| 183 | **PodcastsToText** | Hosted MCP server (OAuth) that transcribes Spotify, Apple Podcasts, YouTube and TikTok links or audio files with speaker labels and timestamps, then generates show notes, chapters and translations | [GitHub](https://github.com/marstyl99/podcaststotext-agent) |
 
 
 
