@@ -101,7 +101,7 @@
       },
       {
         "name": "kubectl-mcp-server",
-        "description": "MCP server for Kubernetes via kubectl — install with npx or pip",
+        "description": "MCP server for Kubernetes via kubectl - install with npx or pip",
         "url": "https://github.com/rohitg00/kubectl-mcp-server",
         "category": "DevOps & Infrastructure"
       },
@@ -275,7 +275,7 @@
       },
       {
         "name": "ghidra-mcp",
-        "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+        "description": "Ghidra MCP Server - 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
         "url": "https://github.com/bethington/ghidra-mcp",
         "category": "DevOps & Infrastructure"
       },
@@ -299,7 +299,7 @@
       },
       {
         "name": "arc-kit",
-        "description": "The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants",
+        "description": "The Enterprise Architecture Governance Harness - strategy, architecture, delivery, and assurance using AI coding assistants",
         "url": "https://github.com/tractorjuice/arc-kit",
         "category": "DevOps & Infrastructure"
       },
@@ -311,7 +311,7 @@
       },
       {
         "name": "cve-mcp-server",
-        "description": "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more.",
+        "description": "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs - CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more.",
         "url": "https://github.com/mukul975/cve-mcp-server",
         "category": "DevOps & Infrastructure"
       },
@@ -359,7 +359,7 @@
       },
       {
         "name": "wslmanager",
-        "description": "GUI for the Windows Subsystem for Linux — and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH.",
+        "description": "GUI for the Windows Subsystem for Linux - and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH.",
         "url": "https://github.com/bostrot/wslmanager",
         "category": "DevOps & Infrastructure"
       },
@@ -455,7 +455,7 @@
       },
       {
         "name": "mcp-server-mysql",
-        "description": "Read-only MCP server for MySQL — inspect schemas and execute read-only queries",
+        "description": "Read-only MCP server for MySQL - inspect schemas and execute read-only queries",
         "url": "https://github.com/benborla/mcp-server-mysql",
         "category": "Database & Storage"
       },
@@ -497,13 +497,13 @@
       },
       {
         "name": "codebase-memory-mcp",
-        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph - average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "url": "https://github.com/DeusData/codebase-memory-mcp",
         "category": "Database & Storage"
       },
       {
         "name": "awesome-openclaw",
-        "description": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) — open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
+        "description": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) - open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
         "url": "https://github.com/SamurAIGPT/awesome-openclaw",
         "category": "Database & Storage"
       },
@@ -527,19 +527,19 @@
       },
       {
         "name": "GoNavi",
-        "description": "High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. | 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。",
+        "description": "High-performance multi-data-source database client - ~30MB, AI & MCP ready, zero Electron bloat. | 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。",
         "url": "https://github.com/Syngnat/GoNavi",
         "category": "Database & Storage"
       },
       {
         "name": "x64dbg-mcp-server",
-        "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
+        "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig - zero dependencies, single-binary output, cros",
         "url": "https://github.com/duty1g/x64dbg-mcp-server",
         "category": "Database & Storage"
       },
       {
         "name": "Douyin_TikTok_Download_API",
-        "description": "🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。| Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
+        "description": "🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。| Self-hosted TikTok & Douyin scraper and no-watermark video downloader - async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
         "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
         "category": "Database & Storage"
       },
@@ -599,7 +599,7 @@
       },
       {
         "name": "apple-docs-mcp",
-        "description": "MCP server for Apple Developer Documentation — search iOS/macOS/SwiftUI/UIKit docs, WWDC videos, and code examples",
+        "description": "MCP server for Apple Developer Documentation - search iOS/macOS/SwiftUI/UIKit docs, WWDC videos, and code examples",
         "url": "https://github.com/kimsungwhee/apple-docs-mcp",
         "category": "Web & Content"
       },
@@ -617,13 +617,13 @@
       },
       {
         "name": "browser-use-mcp-server",
-        "description": "MCP server for browser automation — browse the web directly from Cursor and other AI assistants",
+        "description": "MCP server for browser automation - browse the web directly from Cursor and other AI assistants",
         "url": "https://github.com/kontext-dev/browser-use-mcp-server",
         "category": "Web & Content"
       },
       {
         "name": "chrome-devtools-mcp",
-        "description": "Chrome DevTools MCP server for coding agents — inspect pages, capture logs, and debug",
+        "description": "Chrome DevTools MCP server for coding agents - inspect pages, capture logs, and debug",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
         "category": "Web & Content"
       },
@@ -659,7 +659,7 @@
       },
       {
         "name": "Auto-claude-code-research-in-sleep",
-        "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+        "description": "ARIS ⚔️ (Auto-Research-In-Sleep) - Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in - works with Claude Code, Codex, OpenClaw, or any LLM agent.",
         "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
         "category": "Web & Content"
       },
@@ -725,7 +725,7 @@
       },
       {
         "name": "kaitoInfra/twitterapi-io-mcp-server",
-        "description": "Twitter/X data API for AI agents via MCP — tweet search with full operators, profiles, threads, real-time WebSocket streaming, trending topics. Hosted endpoint mcp.twitterapi.io/mcp (twitterapi.io)",
+        "description": "Twitter/X data API for AI agents via MCP - tweet search with full operators, profiles, threads, real-time WebSocket streaming, trending topics. Hosted endpoint mcp.twitterapi.io/mcp (twitterapi.io)",
         "url": "https://twitterapi.io",
         "category": "Web & Content"
       },
@@ -749,13 +749,13 @@
       },
       {
         "name": "magic-mcp",
-        "description": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own — right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp",
+        "description": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own - right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp",
         "url": "https://github.com/21st-dev/magic-mcp",
         "category": "Web & Content"
       },
       {
         "name": "wigolo",
-        "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+        "description": "The go-to web for your AI coding agent - local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
         "url": "https://github.com/KnockOutEZ/wigolo",
         "category": "Web & Content"
       },
@@ -917,7 +917,7 @@
       },
       {
         "name": "mcp-api-bridge-lite",
-        "description": "Free REST API to MCP bridge — connect any REST API to AI assistants with simple YAML configuration, supporting GET, POST, PUT, DELETE with authentication",
+        "description": "Free REST API to MCP bridge - connect any REST API to AI assistants with simple YAML configuration, supporting GET, POST, PUT, DELETE with authentication",
         "url": "https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite",
         "category": "Integrations & APIs"
       },
@@ -935,7 +935,7 @@
       },
       {
         "name": "agent-signal",
-        "description": "Collective intelligence for AI shopping agents — buyer intelligence, seller analytics, price alerts, and session logging",
+        "description": "Collective intelligence for AI shopping agents - buyer intelligence, seller analytics, price alerts, and session logging",
         "url": "https://github.com/dan24ou-cpu/agent-signal",
         "category": "Integrations & APIs"
       },
@@ -947,19 +947,19 @@
       },
       {
         "name": "coinpaprika-mcp",
-        "description": "Crypto market data for thousands of coins and exchanges — tickers, OHLCV, historical prices. Free, no API key",
+        "description": "Crypto market data for thousands of coins and exchanges - tickers, OHLCV, historical prices. Free, no API key",
         "url": "https://github.com/coinpaprika/coinpaprika-mcp",
         "category": "Integrations & APIs"
       },
       {
         "name": "TWZRD Agent Intel",
-        "description": "Solana-native trust scoring and x402 payment receipt MCP server for AI agents — free preflight, paid signed V5 trust receipt. Streamable-HTTP transport",
+        "description": "Solana-native trust scoring and x402 payment receipt MCP server for AI agents - free preflight, paid signed V5 trust receipt. Streamable-HTTP transport",
         "url": "https://intel.twzrd.xyz",
         "category": "Integrations & APIs"
       },
       {
         "name": "nutrient-dws-mcp-server",
-        "description": "MCP server for Nutrient Document Web Services API — convert, merge, redact, sign, OCR, watermark, and extract documents",
+        "description": "MCP server for Nutrient Document Web Services API - convert, merge, redact, sign, OCR, watermark, and extract documents",
         "url": "https://github.com/PSPDFKit/nutrient-dws-mcp-server",
         "category": "Integrations & APIs"
       },
@@ -971,7 +971,7 @@
       },
       {
         "name": "Gmail-MCP-Server",
-        "description": "MCP server for Gmail integration — read, search, send, and manage emails in Claude Desktop",
+        "description": "MCP server for Gmail integration - read, search, send, and manage emails in Claude Desktop",
         "url": "https://github.com/jasonsum/Gmail-MCP-Server",
         "category": "Integrations & APIs"
       },
@@ -1001,7 +1001,7 @@
       },
       {
         "name": "apistatuscheck-mcp-server",
-        "description": "Live and historical availability for 285 public APIs and developer platforms across 29 categories — tell a third-party outage apart from a bug in your own code. 8 tools: status, uptime history, incident history, reliability ranking. Hosted Streamable HTTP, no API key.",
+        "description": "Live and historical availability for 285 public APIs and developer platforms across 29 categories - tell a third-party outage apart from a bug in your own code. 8 tools: status, uptime history, incident history, reliability ranking. Hosted Streamable HTTP, no API key.",
         "url": "https://github.com/shibley/apistatuscheck-mcp-server",
         "category": "Integrations & APIs"
       },
@@ -1259,7 +1259,7 @@
       },
       {
         "name": "GovContractScout MCP",
-        "description": "MCP server exposing GovContractScout's US state & local government contracts API — search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp`",
+        "description": "MCP server exposing GovContractScout's US state & local government contracts API - search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp`",
         "url": "https://github.com/govcontractscout/govcontractscout-mcp",
         "category": "Integrations & APIs"
       },
@@ -1325,7 +1325,7 @@
       },
       {
         "name": "Roundtable",
-        "description": "Multi-model AI debate platform — GPT-4o, Claude, Gemini & 200+ models discuss, then synthesize insight",
+        "description": "Multi-model AI debate platform - GPT-4o, Claude, Gemini & 200+ models discuss, then synthesize insight",
         "url": "https://github.com/deadpixel/roundtable-dashboard",
         "category": "AI & Machine Learning"
       },
@@ -1337,7 +1337,7 @@
       },
       {
         "name": "jupyter-mcp-server",
-        "description": "MCP server for Jupyter notebooks — run code, manage kernels, and inspect outputs",
+        "description": "MCP server for Jupyter notebooks - run code, manage kernels, and inspect outputs",
         "url": "https://github.com/dsp-ant/jupyter-mcp-server",
         "category": "AI & Machine Learning"
       },
@@ -1505,13 +1505,13 @@
       },
       {
         "name": "pilot-shell",
-        "description": "Make Claude Code production-ready — spec-driven plans, enforced quality gates, persistent knowledge",
+        "description": "Make Claude Code production-ready - spec-driven plans, enforced quality gates, persistent knowledge",
         "url": "https://github.com/maxritter/pilot-shell",
         "category": "AI & Machine Learning"
       },
       {
         "name": "mcp-unity",
-        "description": "Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs",
+        "description": "Model Context Protocol (MCP) plugin to connect with Unity Editor - designed for Cursor, Claude Code, Codex, Windsurf and other IDEs",
         "url": "https://github.com/CoderGamester/mcp-unity",
         "category": "AI & Machine Learning"
       },
@@ -1643,7 +1643,7 @@
       },
       {
         "name": "google-meta-ads-ga4-mcp",
-        "description": "MCP server for Google Ads, Meta Ads & GA4 — works with ChatGPT, Claude, Cursor, n8n, Windsurf & more. 250+ tools for campaign management, analytics & optimization.",
+        "description": "MCP server for Google Ads, Meta Ads & GA4 - works with ChatGPT, Claude, Cursor, n8n, Windsurf & more. 250+ tools for campaign management, analytics & optimization.",
         "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
         "category": "AI & Machine Learning"
       },
@@ -1661,7 +1661,7 @@
       },
       {
         "name": "NotFair",
-        "description": "Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads — connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP",
+        "description": "Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads - connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP",
         "url": "https://github.com/nowork-studio/NotFair",
         "category": "AI & Machine Learning"
       },
@@ -1679,7 +1679,7 @@
       },
       {
         "name": "unstract",
-        "description": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows",
+        "description": "LLM-Driven Extraction of Unstructured Data - Built for API Deployments & ETL Pipeline Workflows",
         "url": "https://github.com/Zipstack/unstract",
         "category": "AI & Machine Learning"
       },
@@ -1697,7 +1697,7 @@
       },
       {
         "name": "ableton-mcp",
-        "description": "🎵 Control Ableton Live with Claude AI — create tracks, arrange clips & compose music via MCP",
+        "description": "🎵 Control Ableton Live with Claude AI - create tracks, arrange clips & compose music via MCP",
         "url": "https://github.com/ahujasid/ableton-mcp",
         "category": "AI & Machine Learning"
       },
@@ -1769,7 +1769,7 @@
       },
       {
         "name": "Agent Module",
-        "description": "EU AI Act compliance logic for autonomous agents — risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP",
+        "description": "EU AI Act compliance logic for autonomous agents - risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP",
         "url": "https://github.com/AgentModule/mcp",
         "category": "Security & Authentication"
       },
@@ -1829,7 +1829,7 @@
       },
       {
         "name": "tradingview-mcp",
-        "description": "TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
+        "description": "TradingView MCP server - real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
         "url": "https://github.com/atilaahmettaner/tradingview-mcp",
         "category": "Security & Authentication"
       },
@@ -1877,7 +1877,7 @@
       },
       {
         "name": "Asynkor",
-        "description": "Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
+        "description": "Coordination layer for AI agent teams - file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
         "url": "https://github.com/asynkor/asynkor",
         "category": "Development Tools"
       },
@@ -3269,7 +3269,7 @@
       },
       {
         "name": "Agent Module",
-        "description": "EU AI Act compliance logic for autonomous agents — risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP",
+        "description": "EU AI Act compliance logic for autonomous agents - risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP",
         "url": "https://github.com/AgentModule/mcp",
         "category": "Security & Authentication"
       },
@@ -3329,7 +3329,7 @@
       },
       {
         "name": "tradingview-mcp",
-        "description": "TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
+        "description": "TradingView MCP server - real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
         "url": "https://github.com/atilaahmettaner/tradingview-mcp",
         "category": "Security & Authentication"
       },
@@ -3371,7 +3371,7 @@
       },
       {
         "name": "Asynkor",
-        "description": "Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
+        "description": "Coordination layer for AI agent teams - file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
         "url": "https://github.com/asynkor/asynkor",
         "category": "Development Tools"
       },
@@ -3563,7 +3563,7 @@
       },
       {
         "name": "knowledge-rag",
-        "description": "Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers",
+        "description": "Local RAG system via MCP - hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers",
         "url": "https://github.com/lyonzin/knowledge-rag",
         "category": "Knowledge Management"
       },
@@ -3665,7 +3665,7 @@
       },
       {
         "name": "decodx",
-        "description": "Hosted Streamable HTTP MCP server (OAuth 2.1) that turns a website or brief into a narrated product video — MP4 plus captions, chapters and a written guide — from Claude and other MCP clients; endpoint `https://api.decodx.ai/mcp`",
+        "description": "Hosted Streamable HTTP MCP server (OAuth 2.1) that turns a website or brief into a narrated product video - MP4 plus captions, chapters and a written guide - from Claude and other MCP clients; endpoint `https://api.decodx.ai/mcp`",
         "url": "https://github.com/decodx-ai/claude-plugin",
         "category": "Multimedia & Design"
       },
