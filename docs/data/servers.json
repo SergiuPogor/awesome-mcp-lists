@@ -4,8 +4,8 @@
     "servers": 360,
     "clients": 21,
     "toolkits": 44,
-    "docker": 180,
-    "total": 605
+    "docker": 181,
+    "total": 606
   },
   "groups": {
     "servers": [
@@ -3643,6 +3643,12 @@
         "name": "Imagelato",
         "description": "Hosted OAuth MCP for image-processing presets, projects, processed batches and webhook delivery health.",
         "url": "https://github.com/imagelato/claude-plugin",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "decodx",
+        "description": "Hosted Streamable HTTP MCP server (OAuth 2.1) that turns a website or brief into a narrated product video — MP4 plus captions, chapters and a written guide — from Claude and other MCP clients; endpoint `https://api.decodx.ai/mcp`",
+        "url": "https://github.com/decodx-ai/claude-plugin",
         "category": "Multimedia & Design"
       }
     ]
