@@ -249,6 +249,7 @@ MCP servers for accessing external services and APIs.
 | 46 | **App Store Tracker** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for iOS App Store chart rankings, app details, reviews, keywords and revenue estimates. | [Docs](https://www.appstoretracker.com/mcp) |
 | 47 | **Debriefing** | Competitive intelligence for B2B teams: tracked competitors, evidence-backed signals, digests and battlecards; 41 tools, 4 public with no sign-in; OAuth 2.1 or API key. Remote MCP `https://debriefing.io/mcp` · Registry `io.debriefing/debriefing` | [GitHub](https://github.com/0xrome/debriefing-mcp) |
 | 48 | **StockDrifts** | Rated US 13F funds with average buy prices, company KPIs, Japanese large-shareholder filings and Korean insider trades. 32 read-only tools, API key. Remote MCP `https://mcp.stockdrifts.io/mcp/` · Registry `io.stockdrifts/mcp` | [GitHub](https://github.com/Stockdrifts/stockdrifts-mcp) |
+| 49 | **SkyAccess** | Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. Hosted Streamable HTTP MCP `https://mcp.skyaccess.com/mcp` · Registry `com.skyaccess/skyaccess` | [GitHub](https://github.com/sky-access/skyaccess-mcp) |
 
 ### AI & Machine Learning
 
