@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 373,
+    "servers": 374,
     "clients": 21,
     "toolkits": 44,
     "docker": 191,
-    "total": 629
+    "total": 630
   },
   "groups": {
     "servers": [
@@ -1339,6 +1339,12 @@
         "name": "PumpGTM",
         "description": "Hosted remote MCP server (Streamable HTTP, OAuth) that finds buyers, runs LinkedIn, email and X outreach from your own accounts, and hands replies back to a human. Endpoint `https://mcp.pumpgtm.com/mcp`",
         "url": "https://github.com/pumpgtm/pumpgtm-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Fast GST Refund",
+        "description": "Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP.",
+        "url": "https://github.com/syllogismos/fast-gst-refund-mcp",
         "category": "Integrations & APIs"
       },
       {
