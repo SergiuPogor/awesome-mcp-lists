@@ -218,6 +218,7 @@ MCP servers for web search, content access, and web automation.
 | 45 | **Apple Docs 2.0 MCP** | Apple developer documentation, Human Interface Guidelines and 1,700 WWDC sessions (2014–2026) with code for coding agents; search with developer.apple.com's own results and an offline index of 336,629 pages. Local stdio via `npx -y apple-docs-2.0-mcp` · Registry `io.github.mishafyi/apple-docs-2.0-mcp` | [GitHub](https://github.com/mishafyi/Apple-Docs-2.0-MCP) |
 | 46 | **Polyblog** | Hosted OAuth MCP for multilingual blog articles, topic planning, translation and confirmed publishing changes. | [Config](https://github.com/polyblog-io/claude-plugin) · [Docs](https://www.polyblog.io/developers/#mcp) |
 | 47 | **naia GEO Autopilot** | Run GEO analyses, read AI visibility reports, generate content, and manage execution plans with [Naia](https://naia.today). Hosted Streamable HTTP with OAuth or API key; npm stdio bridge available. | [GitHub](https://github.com/arielvdl/naia-mcp-server) |
+| 48 | **PDF to MD** | Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication. | [Docs](https://pdf-to-md.app/developers) |
 
 ### Integrations & APIs
 
