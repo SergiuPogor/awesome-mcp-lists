@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 371,
+    "servers": 372,
     "clients": 21,
     "toolkits": 44,
     "docker": 191,
-    "total": 627
+    "total": 628
   },
   "groups": {
     "servers": [
@@ -835,6 +835,12 @@
         "name": "PDF to MD",
         "description": "Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication.",
         "url": "https://pdf-to-md.app/developers",
+        "category": "Web & Content"
+      },
+      {
+        "name": "chucho",
+        "description": "Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp`",
+        "url": "https://chucho.ai/chatgpt/",
         "category": "Web & Content"
       },
       {
