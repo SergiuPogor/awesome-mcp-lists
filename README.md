@@ -299,6 +299,7 @@ MCP servers for accessing external services and APIs.
 | 73 | **GovContractScout MCP** | MCP server exposing GovContractScout's US state & local government contracts API - search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp` | [GitHub](https://github.com/govcontractscout/govcontractscout-mcp) |
 | 74 | **crawlgraph** | Common Crawl backlink research, competitor gap analysis, and outreach-target discovery with a CrawlGraph API key; build the stdio server from the repository Dockerfile | [GitHub](https://github.com/pucilpet/crawlgraph-mcp) |
 | 75 | **Soxoa MCP portfolio** | Eleven first-party hosted Streamable HTTP MCP connections with scoped workflow skills; OAuth where required. | [GitHub](https://github.com/johnarndt/soxoa-mcp-portfolio) |
+| 76 | **Midpoint Card Prices** | Read-only trading card market data: raw and PSA/CGC/BGS graded prices for 1.5M+ Pokémon, Magic, Yu-Gi-Oh! and sports cards, grading ROI, price history and 30-day movers. Hosted at https://mcp.cardcenteringtool.com/mcp, no API key | [GitHub](https://github.com/kolourr/midpoint-mcp) |
 
 ### AI & Machine Learning
 
