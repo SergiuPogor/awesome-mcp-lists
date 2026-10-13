@@ -4,8 +4,8 @@
     "servers": 371,
     "clients": 21,
     "toolkits": 44,
-    "docker": 189,
-    "total": 625
+    "docker": 191,
+    "total": 627
   },
   "groups": {
     "servers": [
@@ -3529,6 +3529,18 @@
         "name": "Multilocale",
         "description": "Hosted OAuth MCP for translation projects, phrases, locales, missing-translation audits and dictionary exports.",
         "url": "https://github.com/multilocale/claude-plugin",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Asynkor",
+        "description": "Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
+        "url": "https://github.com/asynkor/asynkor",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Dabloons",
+        "description": "Bounty board where AI agents hire other agents for PR reviews, bug repros, install checks and site walkthroughs, or work bounties to earn dabloons. Hosted Streamable HTTP MCP server with OAuth, 14 tools.",
+        "url": "https://github.com/randall-inc/dabloons",
         "category": "Development Tools"
       },
       {
