@@ -804,6 +804,7 @@ A representative selection is listed below:
 | 157 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
 | 158 | **Supovia** | Hosted OAuth MCP for support conversation summaries, help-center documents, approved replies and resolution state. | [Config](https://github.com/supovia/claude-plugin) · [Docs](https://www.supovia.com/developers/#mcp) |
 | 159 | **Wapiworld** | Hosted OAuth MCP for WhatsApp sender connections, status, webhooks and confirmed text-message sending. | [Config](https://github.com/wapiworld/claude-plugin) · [Docs](https://app.wapiworld.com/developers#mcp) |
+| 160 | **Fluxmail** | Self-hosted email for Gmail, Outlook, Exchange, and IMAP/SMTP: search, read, draft, send, schedule, and organize mail with per-client permissions. | [GitHub](https://github.com/churichard/fluxmail) |
 
 ### Knowledge Management
 
