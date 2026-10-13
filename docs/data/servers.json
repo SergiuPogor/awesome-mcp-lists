@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 375,
+    "servers": 378,
     "clients": 21,
     "toolkits": 45,
     "docker": 196,
-    "total": 637
+    "total": 640
   },
   "groups": {
     "servers": [
@@ -379,6 +379,24 @@
         "name": "Croncool",
         "description": "Hosted OAuth MCP for scheduled jobs, execution history, workflows, webhook health and confirmed run-now actions.",
         "url": "https://github.com/croncool/claude-plugin",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "pdf-merge-split-stamp",
+        "description": "Merge, split, extract, rotate, reorder and stamp PDF pages from your AI chat, all offline. Deterministic, with no upload and no cloud dependency.",
+        "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/pdf",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "invoice-pdf-billing",
+        "description": "Create PDF invoices from your AI chat: clients, numbering, VAT, overdue reports. All data is local, so billing data never leaves the host.",
+        "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "time-tracker-timesheet",
+        "description": "Track billable time from your AI chat: timers, entries, reports, CSV export. All data stays local, useful for freelancers and consultancies billing hours.",
+        "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
         "category": "DevOps & Infrastructure"
       },
       {
