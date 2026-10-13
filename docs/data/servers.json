@@ -4,8 +4,8 @@
     "servers": 368,
     "clients": 21,
     "toolkits": 44,
-    "docker": 186,
-    "total": 619
+    "docker": 187,
+    "total": 620
   },
   "groups": {
     "servers": [
@@ -3727,6 +3727,12 @@
         "name": "MagicPixel",
         "description": "Hosted MCP server for AI pixel art: generate sprites, variants and new facing directions, browse and buy community marketplace assets, and manage your MagicPixel library. Remote endpoint https://magicpixel.art/mcp with OAuth sign-in",
         "url": "https://magicpixel.art/guides/connect",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Kuro",
+        "description": "Hosted MCP server for creating AI images, video clips, voice-overs, music and editable storyboard films",
+        "url": "https://github.com/meetkuro/kuro-mcp",
         "category": "Multimedia & Design"
       }
     ]
