@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 368,
+    "servers": 369,
     "clients": 21,
     "toolkits": 44,
     "docker": 188,
-    "total": 621
+    "total": 622
   },
   "groups": {
     "servers": [
@@ -829,6 +829,12 @@
         "name": "naia GEO Autopilot",
         "description": "Run GEO analyses, read AI visibility reports, generate content, and manage execution plans with Naia. Hosted Streamable HTTP with OAuth or API key; npm stdio bridge available.",
         "url": "https://naia.today",
+        "category": "Web & Content"
+      },
+      {
+        "name": "PDF to MD",
+        "description": "Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication.",
+        "url": "https://pdf-to-md.app/developers",
         "category": "Web & Content"
       },
       {
