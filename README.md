@@ -106,6 +106,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 58 | **zotero-mcp** | Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more. | TBD | [GitHub](https://github.com/54yyyu/zotero-mcp) |
 | 59 | **wslmanager** | GUI for the Windows Subsystem for Linux — and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH. | TBD | [GitHub](https://github.com/bostrot/wslmanager) |
 | 60 | **atlassian-mcp-server** | Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens. | TBD | [GitHub](https://github.com/atlassian/atlassian-mcp-server) |
+| 61 | **SolidPing** | Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio. | [GitHub](https://github.com/fclairamb/solidping) |
 
 ### Database & Storage
 
