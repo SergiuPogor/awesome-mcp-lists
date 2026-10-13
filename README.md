@@ -300,6 +300,8 @@ MCP servers for accessing external services and APIs.
 | 74 | **crawlgraph** | Common Crawl backlink research, competitor gap analysis, and outreach-target discovery with a CrawlGraph API key; build the stdio server from the repository Dockerfile | [GitHub](https://github.com/pucilpet/crawlgraph-mcp) |
 | 75 | **Soxoa MCP portfolio** | Eleven first-party hosted Streamable HTTP MCP connections with scoped workflow skills; OAuth where required. | [GitHub](https://github.com/johnarndt/soxoa-mcp-portfolio) |
 | 76 | **Midpoint Card Prices** | Read-only trading card market data: raw and PSA/CGC/BGS graded prices for 1.5M+ Pokémon, Magic, Yu-Gi-Oh! and sports cards, grading ROI, price history and 30-day movers. Hosted at https://mcp.cardcenteringtool.com/mcp, no API key | [GitHub](https://github.com/kolourr/midpoint-mcp) |
+| 77 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
+| 78 | **Adrio** | AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required | [Docs](https://adrio.ai/docs/mcp) |
 
 ### AI & Machine Learning
 
