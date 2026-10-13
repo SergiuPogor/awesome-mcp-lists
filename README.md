@@ -853,6 +853,7 @@ A representative selection is listed below:
 | 185 | **MagicPixel** | Hosted MCP server for AI pixel art: generate sprites, variants and new facing directions, browse and buy community marketplace assets, and manage your MagicPixel library. Remote endpoint https://magicpixel.art/mcp with OAuth sign-in | [Website](https://magicpixel.art/guides/connect) |
 | 186 | **Kuro** | Hosted MCP server for creating AI images, video clips, voice-overs, music and editable storyboard films | [GitHub](https://github.com/meetkuro/kuro-mcp) |
 | 187 | **CompressGIF** | Compress GIFs from HTTPS URLs, poll compression jobs, and check credit usage over Streamable HTTP with API key authentication. | [Docs](https://compressgif.net/docs) |
+| 188 | **KitCut** | Hosted remote MCP server (OAuth) that makes narrated, scored animated films from a chat: from an idea or a video template (event and speaker promos, invitations), with series projects and YouTube publishing | [Docs](https://kitcut.ai/docs/assistants) |
 
 
 
