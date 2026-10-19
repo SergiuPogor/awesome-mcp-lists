@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 379,
+    "servers": 380,
     "clients": 21,
     "toolkits": 45,
     "docker": 196,
-    "total": 641
+    "total": 642
   },
   "groups": {
     "servers": [
@@ -397,6 +397,12 @@
         "name": "time-tracker-timesheet",
         "description": "Track billable time from your AI chat: timers, entries, reports, CSV export. All data stays local, useful for freelancers and consultancies billing hours.",
         "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "spinnaker-mcp",
+        "description": "MCP server for any Spinnaker instance through the Gate API: 37 tools for applications, pipelines, executions, deployment strategies and infrastructure, with a read-only toolset. Docker image `drumsergio/spinnaker-mcp`.",
+        "url": "https://github.com/GeiserX/spinnaker-mcp",
         "category": "DevOps & Infrastructure"
       },
       {
