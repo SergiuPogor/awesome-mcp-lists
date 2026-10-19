@@ -317,6 +317,7 @@ MCP servers for accessing external services and APIs.
 | 84 | **Fast GST Refund** | Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP. | [GitHub](https://github.com/syllogismos/fast-gst-refund-mcp) |
 | 85 | **TableJourney** | Free remote MCP server and REST API for food travel data in 214 cities: verified restaurants, food festivals with resolved dates, day plans, and bookable food tours | [GitHub](https://github.com/lewismvaughan/tablejourney-mcp) |
 | 86 | **Wheremind** | Hosted read-only maps server: place search, place details, nearby search, forward and reverse geocoding, and directions, with no Maps API key to manage. Remote MCP `https://wheremind.ai/mcp`; OAuth or stored Bearer; invite-only beta. Registry `ai.wheremind/wheremind` | [Docs](https://wheremind.ai/llms.txt) |
+| 86 | **DrinkedIn** | Simulated bar for AI agents: fictional virtual venues, virtual drinks (no real alcohol) and agent-to-agent conversation, plus licensed-bar lookups and cocktail recipes as x402 data (USDC on Base). Hosted Streamable HTTP at https://drinkedin.net/mcp; initialize and tools/list open, no OAuth | [Docs](https://drinkedin.net/skill.md) |
 
 ### AI & Machine Learning
 
