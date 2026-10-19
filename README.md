@@ -873,6 +873,18 @@ A representative selection is listed below:
 | 186 | **Kuro** | Hosted MCP server for creating AI images, video clips, voice-overs, music and editable storyboard films | [GitHub](https://github.com/meetkuro/kuro-mcp) |
 | 187 | **CompressGIF** | Compress GIFs from HTTPS URLs, poll compression jobs, and check credit usage over Streamable HTTP with API key authentication. | [Docs](https://compressgif.net/docs) |
 | 188 | **KitCut** | Hosted remote MCP server (OAuth) that makes narrated, scored animated films from a chat: from an idea or a video template (event and speaker promos, invitations), with series projects and YouTube publishing | [Docs](https://kitcut.ai/docs/assistants) |
+| 1 | gyazo | Screenshot capturing and sharing service | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md) |
+| 2 | handwriting-ocr | Optical character recognition for handwritten text | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md) |
+| 3 | webflow | Visual website design and content management system | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md) |
+| 4 | youtube_transcript | YouTube video transcript extraction | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md) |
+| 5 | speech-ai | Speech AI with pronunciation assessment, text-to-speech, and speech-to-text | [GitHub](https://github.com/fasuizu-br/speech-ai-examples) |
+| 6 | **Prompt to Asset** | MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models | [GitHub](https://github.com/MohamedAbdallah-14/prompt-to-asset) |
+| 7 | **OrkasVideoStudio** | Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly | [GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
+| 8 | **AI Applyd** | ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system | [GitHub](https://github.com/whateverneveranywhere/aiapplyd-mcp) |
+| 9 | **YouTube Transcript MCP** | MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients | [GitHub](https://github.com/ZeroPointRepo/youtube-mcp) |
+| 10 | **Magic Hour** | Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools | [GitHub](https://github.com/magichourhq/magic-hour-mcp) |
+| 11 | **BulkTranscripts** | Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking | [GitHub](https://github.com/pratie/bulktranscripts-mcp) |
+| 12 | **Creative Claw** | Hosted MCP server for generating and editing images, video, and audio with reusable Characters and brand assets through OAuth | [GitHub](https://github.com/CreativeClawCo/creative-claw-marketplace) |
 
 
 
