@@ -504,6 +504,7 @@ MCP servers for AI and machine learning capabilities.
 | 12 | **GetYouTubeTranscript** | Hosted MCP server (Streamable HTTP, OAuth or API key) for full YouTube video transcripts, YouTube and in-channel search, channel and playlist video lists, and a channel's latest uploads | [GitHub](https://github.com/tubeagentkit/youtube-mcp) |
 | 13 | **Hypnothera** | Hosted Streamable HTTP MCP for personalized guided hypnosis audio: search a free library of ready-made sessions, create sessions and multi-day journeys from a brief the user approves, and render audio in a chosen voice; OAuth with dynamic client registration | [GitHub](https://github.com/La-Salida/hypnothera-skill) |
 | 14 | **screenRIG** | Hosted MCP server for digital signage screens, playlists, media, schedules and playback reports, with OAuth authorization | [Docs](https://screenrig.ai/docs/mcp/) |
+| 14 | **VideoGen MCP** | Create editable videos from storyboards/scripts, generate media, edit projects and export through the VideoGen API; hosted HTTP or local stdio, account and generation credits required | [GitHub](https://github.com/video-gen/videogen-mcp) · [Setup](https://videogen.io/videogen-mcp) |
 
 
 
