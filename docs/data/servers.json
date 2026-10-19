@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 380,
+    "servers": 381,
     "clients": 21,
     "toolkits": 45,
     "docker": 196,
-    "total": 642
+    "total": 643
   },
   "groups": {
     "servers": [
@@ -2209,6 +2209,12 @@
         "name": "Continuity by Ouroboros Apps",
         "description": "Story continuity for fiction writers: a series bible and novel memory that keeps characters, places, timelines, and plot facts consistent across chats. Hosted Streamable HTTP MCP `https://continuitywriter.com/mcp` with OAuth; includes a Dockerfile. Site · Ouroboros Apps",
         "url": "https://continuitywriter.com",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "StatOrigin",
+        "description": "Hosted, read-only remote MCP server (no auth) to search sourced industry statistics; each record carries its publisher, source document and source sentence",
+        "url": "https://statorigin.org/docs/mcp",
         "category": "Knowledge Management"
       },
       {
