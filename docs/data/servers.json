@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 381,
+    "servers": 382,
     "clients": 21,
     "toolkits": 45,
     "docker": 196,
-    "total": 643
+    "total": 644
   },
   "groups": {
     "servers": [
@@ -2293,6 +2293,12 @@
         "name": "Hypnothera",
         "description": "Hosted Streamable HTTP MCP for personalized guided hypnosis audio: search a free library of ready-made sessions, create sessions and multi-day journeys from a brief the user approves, and render audio in a chosen voice; OAuth with dynamic client registration",
         "url": "https://github.com/La-Salida/hypnothera-skill",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "screenRIG",
+        "description": "Hosted MCP server for digital signage screens, playlists, media, schedules and playback reports, with OAuth authorization",
+        "url": "https://screenrig.ai/docs/mcp/",
         "category": "Multimedia & Design"
       }
     ],
