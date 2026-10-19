@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 378,
+    "servers": 379,
     "clients": 21,
     "toolkits": 45,
     "docker": 196,
-    "total": 640
+    "total": 641
   },
   "groups": {
     "servers": [
@@ -1369,6 +1369,12 @@
         "name": "TableJourney",
         "description": "Free remote MCP server and REST API for food travel data in 214 cities: verified restaurants, food festivals with resolved dates, day plans, and bookable food tours",
         "url": "https://github.com/lewismvaughan/tablejourney-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Wheremind",
+        "description": "Hosted read-only maps server: place search, place details, nearby search, forward and reverse geocoding, and directions, with no Maps API key to manage. Remote MCP `https://wheremind.ai/mcp`; OAuth or stored Bearer; invite-only beta. Registry `ai.wheremind/wheremind`",
+        "url": "https://wheremind.ai/llms.txt",
         "category": "Integrations & APIs"
       },
       {
